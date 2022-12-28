@@ -1,0 +1,95 @@
+.sectionTitle {
+  margin-bottom: 65px; /* 10 от карточек*/
+}
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardsContainer > div {
+  width: calc((1520px - 40px) / 2);
+}
+.cardRight {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 35px 35px 35px 0;
+}
+.leftColumn {
+  width: 293px;
+}
+.rightColumn {
+  width: 253px;
+}
+.technologyIcon {
+  padding: 19px 19px 18px 19px;
+}
+.consultantIcon {
+  padding: 17px 18px 21px 19px;
+}
+.bitcoinIcon {
+  padding: 19px 19px 18px 18px;
+}
+.teamIcon {
+  padding: 20px 19px 17px 19px;
+}
+.globalNetworkIcon {
+  padding: 17px 18px 20px 19px;
+}
+.teamWorkIcon {
+  padding: 19px 20px 18px 20px;
+}
+@media screen and (max-width: 1440px) {
+  .cardsContainer > div {
+    width: 593px;
+  }
+  .leftColumn {
+    width: 232px;
+  }
+  .rightColumn {
+    width: 200px;
+  }
+  .sectionTitle {
+    margin-bottom: 50px;
+  }
+  .cardRight {
+    margin: 30px 27px 27px 0;
+  }
+  .technologyIcon {
+    padding: 15px 15px 14px 15px;
+  }
+  .consultantIcon {
+    padding: 13.48px 14.27px 16.65px 15.06px;
+  }
+  .bitcoinIcon {
+    padding: 15.06px 15.06px 14.27px 14.27px;
+  }
+  .teamIcon {
+    padding: 15.85px 15.06px 13.48px 15.06px;
+  }
+  .globalNetworkIcon {
+    padding: 13.48px 14.27px 15.85px 15.06px;
+  }
+  .teamWorkIcon {
+    padding: 15.06px 15.85px 14.27px 15.85px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .technologyIcon {
+    padding: 8.64px 8.64px 8.16px 8.64px;
+  }
+  .consultantIcon {
+    padding: 7.73px 8.18px 9.55px 8.64px;
+  }
+  .bitcoinIcon {
+    padding: 8.64px 8.64px 8.18px 8.18px;
+  }
+  .teamIcon {
+    padding: 9.09px 8.64px 7.73px 8.64px;
+  }
+  .globalNetworkIcon {
+    padding: 7.73px 8.18px 9.09px 8.64px;
+  }
+  .teamWorkIcon {
+    padding: 8.64px 9.09px 8.18px 9.09px;
+  }
+}

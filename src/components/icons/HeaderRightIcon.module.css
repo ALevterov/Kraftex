@@ -1,0 +1,11 @@
+@media screen and (max-width: 1440px) {
+  .headerRightIcon {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .headerRightIcon {
+    transform: scale(1);
+  }
+}

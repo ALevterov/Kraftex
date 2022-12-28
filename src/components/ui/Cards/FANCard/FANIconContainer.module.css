@@ -1,0 +1,17 @@
+.container {
+  background-color: #292929;
+  border-radius: 21px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    border-radius: 16.6467px;
+  }
+  .container > * {
+    transform: scale(0.793);
+  }
+}

@@ -1,0 +1,14 @@
+.darkContainer {
+  background-color: var(--dark);
+  border-radius: 36px;
+  padding: 44px 50px;
+
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.darkContainer > span {
+  font-weight: 400;
+}

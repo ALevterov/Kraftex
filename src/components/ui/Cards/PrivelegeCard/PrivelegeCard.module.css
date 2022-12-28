@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 42px 43px 45px 42px;
+
+  background-color: var(--dark2);
+  border-radius: 36px;
+  margin-right: 22px;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card:hover {
+  background-color: var(--gray2);
+}
+.iconWrapper {
+  margin-bottom: 45px;
+}
+.middleContent {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 45px;
+}
+.middleContent > span {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+.bottomContent {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 25px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .middleContent {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .bottomContent {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

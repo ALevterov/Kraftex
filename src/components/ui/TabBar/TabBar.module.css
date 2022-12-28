@@ -1,0 +1,44 @@
+.tabBar {
+}
+.tabBarItemContainer {
+  margin: 50px 0;
+}
+.tabBarItemContainer > p,
+.itemPar {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+.tabBarListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabBarListContainerItem {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.tabBarListContainerItem > li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 1440px) {
+  .tabBarListContainerItem > li,
+  .tabBarItemContainer > p,
+  .itemPar {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+/* .tabBarListContainerItem:first-child {
+  margin-right: 107px;
+}
+.tabBarListContainerItem:nth-child(2) {
+  margin-right: 139px;
+} */

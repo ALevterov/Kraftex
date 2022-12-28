@@ -1,0 +1,31 @@
+.serviceItem {
+  width: 33.3333%;
+}
+.serviceItemInner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000;
+}
+.iconWrapper {
+  margin-right: 24px;
+}
+
+.border {
+  border-right: 1px solid rgba(185, 185, 185, 1);
+}
+
+@media screen and (max-width: 1440px) {
+  .textWrapper {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

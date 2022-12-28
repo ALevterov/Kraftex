@@ -1,0 +1,5 @@
+@media screen and (max-width: 1440px) {
+  .logoIcon {
+    transform: scale(0.794);
+  }
+}

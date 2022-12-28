@@ -1,0 +1,9 @@
+.additionalText {
+  margin-top: 32px;
+  color: var(--light-gray);
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+
+  text-align: center;
+}

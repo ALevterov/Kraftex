@@ -1,0 +1,8 @@
+.sectionTitle {
+  margin-bottom: 70px;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}

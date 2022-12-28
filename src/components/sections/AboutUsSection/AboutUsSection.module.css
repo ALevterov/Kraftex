@@ -1,0 +1,37 @@
+.aboutUsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.imageContainer {
+  position: relative;
+  width: 446px;
+  height: 353px;
+  min-width: 446px;
+  flex-shrink: 1;
+  flex-grow: 1;
+
+  margin-right: 50px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textContainer > p {
+  text-align: right;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+@media screen and (max-width: 1440px) {
+  .imageContainer {
+    width: 353px;
+    min-width: 353px;
+    height: 280px;
+  }
+  .textContainer > p {
+    font-size: 16px;
+    line-height: 27.74px;
+  }
+}

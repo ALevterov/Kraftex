@@ -1,0 +1,31 @@
+.mainText {
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 140%;
+  color: #fff;
+
+  position: relative;
+  top: 130px;
+  left: -80px;
+  /* margin-top: 276px; */
+}
+.mainText > p {
+  white-space: nowrap;
+}
+.bottomText {
+  padding-left: 78px;
+}
+
+@media screen and (max-width: 1440px) {
+  .mainText {
+    font-size: 20px;
+    line-height: 27.74px;
+
+    /* margin-top: 330px; */
+    top: 20px;
+    left: 10px;
+  }
+  .bottomText {
+    padding-left: 62px;
+  }
+}

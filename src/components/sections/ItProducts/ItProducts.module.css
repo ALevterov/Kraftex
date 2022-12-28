@@ -1,0 +1,33 @@
+.title {
+  margin-bottom: 70px;
+}
+div.whiteBlock {
+  margin-bottom: 20px;
+  padding: 38px 75px;
+  margin: 0 0 20px 0;
+}
+div.noMargin {
+  margin: 0;
+}
+.whiteBlock > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text1 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
+  color: #000;
+}
+.text2 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000;
+}
+@media screen and (max-width: 1440px) {
+  .title {
+    margin-bottom: 55px;
+  }
+}

@@ -1,0 +1,30 @@
+.sectionTitle {
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 35px;
+}
+.colored {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(
+    rgba(54, 105, 44, 1),
+    rgba(166, 246, 150, 0.8616),
+    rgba(54, 105, 44, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 1440px) {
+  .sectionTitle {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .titleContainer {
+    margin-bottom: 55px;
+  }
+}

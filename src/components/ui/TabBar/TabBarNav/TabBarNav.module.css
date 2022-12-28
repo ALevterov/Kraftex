@@ -1,0 +1,36 @@
+.tabBarNav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navItem {
+  padding: 0 0 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+  background-color: transparent;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #fff;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--gray);
+}
+
+.active {
+  border-bottom: 1px solid var(--dark-green);
+}
+
+@media screen and (max-width: 1440px) {
+  .navItem {
+    font-size: 19.8175px;
+    line-height: 28px;
+    padding: 0 0 46px 0;
+  }
+}

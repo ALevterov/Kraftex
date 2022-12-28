@@ -1,0 +1,50 @@
+div.moneyTitle {
+  margin-bottom: 44px;
+}
+.imageContainer {
+  width: 443px;
+  height: 460px;
+  margin-bottom: 25px;
+  position: relative;
+  right: -30px;
+}
+.mainText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #fff;
+
+  margin-bottom: 67px;
+}
+.mainText > span {
+  font-weight: 700;
+}
+.itemWrapper {
+  margin-bottom: 103px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.additionalText {
+  width: 540px;
+}
+.darkContainerWrapper {
+  width: calc(1520px - 475px - 92px);
+  margin-right: 92px;
+
+  display: flex;
+  align-items: center;
+}
+.titledListWrapper {
+  width: 475px;
+}
+
+@media screen and (max-width: 1440px) {
+  .darkContainerWrapper {
+    width: 750px;
+    margin-right: 73px;
+  }
+  .titledListWrapper {
+    width: 397px;
+  }
+}
