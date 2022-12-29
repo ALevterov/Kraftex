@@ -1,0 +1,27 @@
+.sectionWrapper {
+  position: relative;
+  /* overflow-x: auto; */
+}
+
+.hatContainer {
+  position: absolute;
+  width: 100%;
+  top: -390px;
+  /* left: -48.5px; */
+  z-index: 1000;
+}
+.cardContainer {
+  position: absolute;
+  z-index: 1000;
+  left: 182px;
+  top: 225px;
+}
+@media screen and (max-width: 1440px) {
+  .hatContainer {
+    left: 80px;
+  }
+  .cardContainer {
+    left: 263px;
+    top: 178px;
+  }
+}

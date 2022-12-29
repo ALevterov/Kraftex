@@ -25,12 +25,6 @@ div.noMargin {
   color: #000;
 }
 
-.cashWalletContainer {
-  width: 308px;
-  height: 102px;
-  position: relative;
-}
-
 @media screen and (max-width: 1440px) {
   .title {
     margin-bottom: 55px;
@@ -40,11 +34,10 @@ div.noMargin {
     line-height: 20px;
   }
   .cashWalletContainer {
-    width: 244px;
-    height: 81px;
+    transform: scaleX(0.792) scaleY(0.794);
   }
   .TgBotIconWrapper {
-    transform: scaleY(0.785) scaleX(0.762);
+    transform: scaleY(0.785) scaleX(0.79);
   }
   div.whiteBlock {
     padding: 30px 60px;

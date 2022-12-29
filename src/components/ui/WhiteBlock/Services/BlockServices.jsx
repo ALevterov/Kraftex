@@ -10,13 +10,19 @@ const BlockServices = () => {
         text={'Финансовые перестановки'}
         icon={<FinanceReportIcon />}
         withBorder={true}
+        href={'#financical-replacement'}
       />
       <ServiceItem
         text={'Обмен валют'}
         icon={<ExchangeIcon />}
         withBorder={true}
+        href={'#money-exchange'}
       />
-      <ServiceItem text={'IT-продукты Kraftex'} icon={<WebSettingsIcon />} />
+      <ServiceItem
+        href={'#it-products'}
+        text={'IT-продукты Kraftex'}
+        icon={<WebSettingsIcon />}
+      />
     </>
   )
 }

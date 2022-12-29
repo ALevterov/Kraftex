@@ -36,13 +36,13 @@ const FactsAndNumbers = () => {
             <ConsultantIcon />
           </FANIconContainer>
         </FANCard>
-        <FANCard text={'На рынке криптовалют'} rightClass={styles.rightColumn}>
+        <FANCard text={'На рынке криптовалют'} rightClass={styles.leftColumn}>
           <div className={styles.cardRight}>с 2013 года</div>
           <FANIconContainer className={styles.bitcoinIcon}>
             <BitcoinIcon />
           </FANIconContainer>
         </FANCard>
-        <FANCard text={'Численность команды'} rightClass={styles.leftColumn}>
+        <FANCard text={'Численность команды'} rightClass={styles.rightColumn}>
           <div className={styles.cardRight}>50 человек</div>
           <FANIconContainer className={styles.teamIcon}>
             <TeamIcon />

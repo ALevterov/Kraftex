@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+  top: -60px;
 }
 .iconContainer {
   position: absolute;
-  top: 208px;
-  left: -79px;
+  top: 188px;
+  left: 0;
   z-index: 10;
 }
 .firstSectionTextContainer {
@@ -15,6 +17,8 @@
   flex: 1 1 0;
   justify-content: center;
   padding-left: 107px;
+  position: relative;
+  left: 80px;
 }
 .imageContainer {
   top: 63px;
@@ -25,7 +29,7 @@
   z-index: 1;
 }
 .rokfellerText {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 25px;
   line-height: 140%;
   color: #fff;
@@ -49,8 +53,12 @@ div.firstSectionContainer {
   margin-bottom: 103px;
 }
 @media screen and (max-width: 1440px) {
+  .firstSectionTextContainer {
+    left: 0;
+  }
   div.firstSectionContainer {
     margin-bottom: 160px;
+    top: 0;
   }
   .imageContainer {
     width: 782px;

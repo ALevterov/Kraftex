@@ -6,9 +6,16 @@
 .colored {
   text-transform: uppercase;
   background: -webkit-linear-gradient(
-    rgba(54, 105, 44, 1),
-    rgba(166, 246, 150, 0.8616),
-    rgba(54, 105, 44, 1)
+    90.44deg,
+    #36692c -21.63%,
+    rgba(166, 246, 150, 0.861638) 31.59%,
+    #36692c 117.56%
+  );
+  background: linear-gradient(
+    90.44deg,
+    #36692c -21.63%,
+    rgba(166, 246, 150, 0.861638) 31.59%,
+    #36692c 117.56%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

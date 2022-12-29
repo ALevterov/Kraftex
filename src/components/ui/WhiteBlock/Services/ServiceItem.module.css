@@ -1,5 +1,6 @@
 .serviceItem {
   width: 33.3333%;
+  cursor: pointer;
 }
 .serviceItemInner {
   margin: 0 auto;

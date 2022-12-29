@@ -9,10 +9,11 @@ import FactsAndNumbers from 'components/sections/FactsAndNumbers/FactsAndNumbers
 import ItProducts from 'components/sections/ItProducts/ItProducts'
 import InviteSection from 'components/sections/InviteSection/InviteSection'
 import Footer from 'components/sections/Footer/Footer'
+import MapSection from 'components/sections/MapSection/MapSection'
 
 export default function Home() {
   return (
-    <>
+    <div style={{ overflow: 'hidden' }}>
       <Header />
       <FirstSection />
       <AboutUsSection />
@@ -23,7 +24,8 @@ export default function Home() {
       <FactsAndNumbers />
       <ItProducts />
       <InviteSection />
+      <MapSection />
       <Footer />
-    </>
+    </div>
   )
 }

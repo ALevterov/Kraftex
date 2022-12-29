@@ -9,9 +9,10 @@ import TitledList from 'components/ui/TitledList/TitledList'
 import Center from 'components/ui/Center'
 import MainButton from 'components/ui/Buttons/MainButton/MainButton'
 import AdditionalText from 'components/ui/Text/AdditionallText'
+import WorldMapIcon from 'components/icons/WorldMapIcon'
 const FinansicalReplacement = () => {
   return (
-    <Container className='section bigMargin'>
+    <Container className='section bigMargin' id={'financical-replacement'}>
       <SectionTitle text={'Финансовые перестановки'} colored={true} />
       <div className={styles.description}>
         Kraftex предлагает услуги перестановки активов{' '}
@@ -25,7 +26,7 @@ const FinansicalReplacement = () => {
         в другой стране лично.
       </div>
       <div className={styles.mapWrapper}>
-        <Image src={mapPicture.src} fill alt='Map' />
+        <WorldMapIcon />
       </div>
       <div className={styles.wrapperBlock}>
         <div className={styles.financicalDarkContainer}>

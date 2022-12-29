@@ -1,3 +1,6 @@
+.container {
+  margin-bottom: 209px;
+}
 .title {
   margin-bottom: 59px;
 }
@@ -5,6 +8,9 @@
   display: grid;
   grid-template-columns: 1.134fr 1fr;
   column-gap: 145px;
+
+  z-index: 1100;
+  position: relative;
 }
 .imageWrapper {
   position: relative;

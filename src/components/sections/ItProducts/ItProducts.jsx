@@ -6,11 +6,9 @@ import WhiteBlock from 'components/ui/WhiteBlock/WhiteBlock'
 import CashWalletIcon from 'components/icons/KraftexProducts/CashWalletIcon'
 import WhiteButton from 'components/ui/Buttons/WhiteButton/WhiteButton'
 import TgBotIcon from 'components/icons/KraftexProducts/TgBotIcon'
-import CashWalletImage from '../../../../public/assets/CashWallet.png'
-import Image from 'next/image'
 const ItProducts = () => {
   return (
-    <Container className={'section bigMargin'}>
+    <Container className={'section bigMargin'} id={'it-products'}>
       <Center>
         <SectionTitle
           text={'IT-продукты Kraftex'}
@@ -21,9 +19,9 @@ const ItProducts = () => {
       <WhiteBlock className={styles.whiteBlock}>
         <div className={styles.text1}>Обменный пункт Cashwallet</div>
         <div className={styles.cashWalletContainer}>
-          <Image src={CashWalletImage.src} fill alt='CashWallet' />
+          <CashWalletIcon />
         </div>
-        <div className={styles.text2}>основан в 2017 г.</div>
+        <div className={styles.text1}>основан в 2017 г.</div>
         <WhiteButton>Перейти</WhiteButton>
       </WhiteBlock>
       <WhiteBlock className={[styles.whiteBlock, styles.bottomWB].join(' ')}>

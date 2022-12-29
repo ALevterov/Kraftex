@@ -11,7 +11,7 @@ import MainButton from 'components/ui/Buttons/MainButton/MainButton'
 import AdditionalText from 'components/ui/Text/AdditionallText'
 const MoneyExchange = () => {
   return (
-    <Container className={'section bigMargin'}>
+    <Container className={'section bigMargin'} id={'money-exchange'}>
       <SectionTitle
         text={'Обмен валют'}
         className={styles.moneyTitle}

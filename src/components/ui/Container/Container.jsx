@@ -1,8 +1,8 @@
 import styles from './Container.module.css'
-const Container = ({ children, style, className }) => {
+const Container = ({ children, style, className, id }) => {
   const classes = className ? [styles.container, className] : [styles.container]
   return (
-    <div className={classes.join(' ')} style={{ ...style }}>
+    <div id={id} className={classes.join(' ')} style={{ ...style }}>
       {children}
     </div>
   )
