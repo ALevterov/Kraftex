@@ -7,6 +7,8 @@ import MoneyExchange from 'components/sections/MoneyExchange/MoneyExchange'
 import Priveleges from 'components/sections/Priveleges/Priveleges'
 import FactsAndNumbers from 'components/sections/FactsAndNumbers/FactsAndNumbers'
 import ItProducts from 'components/sections/ItProducts/ItProducts'
+import InviteSection from 'components/sections/InviteSection/InviteSection'
+import Footer from 'components/sections/Footer/Footer'
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Priveleges />
       <FactsAndNumbers />
       <ItProducts />
+      <InviteSection />
+      <Footer />
     </>
   )
 }

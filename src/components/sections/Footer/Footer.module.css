@@ -1,0 +1,30 @@
+.container {
+  margin: 32px auto 35px auto;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #949494;
+}
+.politics {
+  margin-right: 135px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1440px) {
+  .footerWrapper {
+    margin: 44px auto 40px auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .politics {
+    margin-right: 158px;
+  }
+}

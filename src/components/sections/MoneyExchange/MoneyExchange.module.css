@@ -21,30 +21,22 @@ div.moneyTitle {
 }
 .itemWrapper {
   margin-bottom: 103px;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+
+  display: grid;
+  grid-template-columns: 1.8537fr 1fr;
+  column-gap: 86px;
 }
 .additionalText {
   width: 540px;
 }
 .darkContainerWrapper {
-  width: calc(1520px - 475px - 92px);
-  margin-right: 92px;
-
   display: flex;
   align-items: center;
 }
-.titledListWrapper {
-  width: 475px;
-}
 
 @media screen and (max-width: 1440px) {
-  .darkContainerWrapper {
-    width: 750px;
-    margin-right: 73px;
-  }
-  .titledListWrapper {
-    width: 397px;
+  .itemWrapper {
+    grid-template-columns: 1.70916fr 1fr;
+    column-gap: 66px;
   }
 }

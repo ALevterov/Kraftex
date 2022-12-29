@@ -1,0 +1,32 @@
+.title {
+  margin-bottom: 59px;
+}
+.itemsContainer {
+  display: grid;
+  grid-template-columns: 1.134fr 1fr;
+  column-gap: 145px;
+}
+.imageWrapper {
+  position: relative;
+  width: 719px;
+  height: 840px;
+}
+.buttonInner {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+  .imageWrapper {
+    width: 570px;
+    height: 666px;
+  }
+  .itemsContainer {
+    grid-template-columns: 1.059fr 1fr;
+    column-gap: 115px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .imageWrapper {
+    display: none;
+  }
+}

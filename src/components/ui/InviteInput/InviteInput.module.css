@@ -1,0 +1,38 @@
+.input,
+.label {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+}
+.label {
+  color: #fff;
+  text-align: left;
+}
+.input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 0.5px solid #ffffff;
+  color: #fff;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 95px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .inputWrapper {
+    height: 75px;
+
+    margin-bottom: 31.71px;
+  }
+  .input,
+  .label {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

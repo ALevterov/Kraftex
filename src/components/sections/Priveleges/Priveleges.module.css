@@ -2,7 +2,13 @@
   margin-bottom: 70px;
 }
 .cardContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10.5px;
+}
+
+@media screen and (max-width: 1440px) {
+  .cardContainer {
+    column-gap: 18px;
+  }
 }

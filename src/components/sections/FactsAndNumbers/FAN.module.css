@@ -2,14 +2,15 @@
   margin-bottom: 65px; /* 10 от карточек*/
 }
 .cardsContainer {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
-.cardsContainer > div {
+/* .cardsContainer > div {
   width: calc((1520px - 40px) / 2);
-}
+} */
 .cardRight {
-  font-weight: 200;
+  font-weight: 100;
   font-size: 20px;
   line-height: 25px;
   margin: 35px 35px 35px 0;
@@ -39,8 +40,12 @@
   padding: 19px 20px 18px 20px;
 }
 @media screen and (max-width: 1440px) {
-  .cardsContainer > div {
+  /* .cardsContainer > div {
     width: 593px;
+  } */
+  .cardsContainer {
+    column-gap: 26.5px;
+    row-gap: 8px;
   }
   .leftColumn {
     width: 232px;

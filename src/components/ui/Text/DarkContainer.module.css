@@ -12,3 +12,12 @@
 .darkContainer > span {
   font-weight: 400;
 }
+@media screen and (max-width: 1440px) {
+  .darkContainer {
+    /* padding: 35px 30px 35px 28px; */
+    padding: 35px 34px 35px 32px;
+
+    font-size: 12.6832px;
+    line-height: 20px;
+  }
+}

@@ -10,18 +10,17 @@
   width: 1390px;
   height: 686px;
   position: relative;
+  max-width: 95%;
 }
 .wrapperBlock {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1.017fr;
+  column-gap: 110px;
+  /* display: flex;
+  justify-content: space-between; */
   margin-bottom: 102px;
 }
-.financicalDarkContainer,
-.titledListContainer {
-  width: calc(1520px - 92px / 2);
-}
 .financicalDarkContainer {
-  margin-right: 92px;
   display: flex;
   align-items: center;
 }
@@ -38,11 +37,9 @@
     width: 1101px;
     height: 544px;
   }
-  .financicalDarkContainer {
-    width: 559px;
-    margin-right: 73px;
-  }
-  .titledListContainer {
-    width: 590px;
+  .wrapperBlock {
+    margin-left: 66px;
+    grid-template-columns: 1.03fr 1.1554fr;
+    column-gap: 90px;
   }
 }

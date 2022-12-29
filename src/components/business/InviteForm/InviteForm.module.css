@@ -1,0 +1,65 @@
+.inviteForm {
+  position: relative;
+}
+.additionalText {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 35px;
+  color: #5b5b5b;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.doubleInputWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 88px;
+}
+.safety {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 37px;
+  color: #fff;
+}
+.iconWrapper {
+  margin-right: 15px;
+}
+.commonWrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+.agreement {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 35px;
+
+  color: #5b5b5b;
+}
+
+@media screen and (max-width: 1440px) {
+  .additionalText {
+    font-size: 13px;
+    line-height: 28px;
+  }
+  .commonWrapper {
+    margin-top: 11.79px;
+    margin-bottom: 4.27px;
+  }
+  .safety {
+    font-size: 13.0555px;
+    line-height: 29px;
+  }
+  .agreement {
+    font-size: 11.8927px;
+    line-height: 27px;
+  }
+  .iconWrapper {
+    margin-right: 12px;
+  }
+}

@@ -1,0 +1,44 @@
+.buttonInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  width: 100%;
+  background-color: var(--mainButton);
+  padding: 25px 56px 25px 80px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+
+  transition: all 0.3s ease;
+  border: 1px solid var(--mainButton);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  color: rgba(166, 246, 150, 0.861638);
+  background-color: transparent;
+  border-right: 1px solid rgba(166, 246, 150, 0.861638);
+}
+.icon {
+  position: relative;
+  top: -1px;
+}
+.button:hover > div > .icon > svg > path {
+  transition: all 0.3s ease;
+  fill: rgba(166, 246, 150, 0.861638);
+}
+
+@media screen and (max-width: 1440px) {
+  .button {
+    font-size: 20.0744px;
+    line-height: 28px;
+
+    padding: 20px 27px 20px 64px;
+  }
+  .icon > svg {
+    transform: scale(0.8);
+  }
+}
