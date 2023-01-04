@@ -1713,7 +1713,7 @@ const WorldMapIcon = () => {
           fill='#222323'
         />
       </g>
-      <g clipPath='url(#clip0_888_891)'>
+      <g clip-path='url(#clip0_888_891)'>
         <path
           d='M319.913 278.281C319.726 278.281 319.538 278.219 319.381 278.094C319.068 277.812 319.037 277.312 319.319 277C319.319 277 320.039 276.187 321.479 274.687C321.792 274.374 322.262 274.374 322.575 274.687C322.888 274.999 322.888 275.468 322.575 275.781C321.197 277.219 320.477 278.031 320.477 278.031C320.32 278.219 320.101 278.281 319.882 278.281H319.913Z'
           fill='#36692C'
@@ -1765,36 +1765,6 @@ const WorldMapIcon = () => {
       <circle cx='320' cy='277.989' r='3' fill='#36692C' />
       <circle cx='275' cy='263.989' r='3' fill='#36692C' />
       <circle cx='113' cy='138.989' r='3' fill='#36692C' />
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M512.108 188.187C512.011 188.142 502.848 185.093 491.746 181.412C478.819 177.125 471.381 174.704 471.06 174.679C470.038 174.599 468.958 175.13 468.344 176.013C467.939 176.595 467.702 177.534 467.798 178.169C467.869 178.642 471.098 186.267 471.594 187.134C472.132 188.075 472.619 188.418 477.152 191.051C479.355 192.33 481.161 193.421 481.165 193.475C481.17 193.529 479.576 194.908 477.624 196.54C473.965 199.598 473.357 200.179 472.944 201.014C472.826 201.252 472.234 203.501 471.628 206.01C470.439 210.939 470.43 211.012 470.888 212.007C471.469 213.271 473.05 214.034 474.388 213.696C474.699 213.618 481.667 209.957 493.689 203.557L512.504 193.542L512.992 192.969C513.545 192.32 513.785 191.656 513.768 190.823C513.754 190.128 513.324 189.228 512.753 188.7C512.496 188.463 512.206 188.232 512.108 188.187Z'
-        fill='#36692C'
-      />
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M1173.18 131.011C1173.11 130.96 1166.87 126.986 1159.3 122.181C1150.49 116.585 1145.41 113.4 1145.18 113.321C1144.43 113.072 1143.53 113.265 1142.91 113.807C1142.5 114.164 1142.15 114.818 1142.1 115.308C1142.07 115.673 1143.05 121.943 1143.25 122.68C1143.48 123.48 1143.78 123.826 1146.66 126.627C1148.05 127.989 1149.19 129.136 1149.19 129.177C1149.18 129.219 1147.74 129.947 1145.98 130.796C1142.69 132.388 1142.13 132.706 1141.67 133.25C1141.54 133.406 1140.68 134.967 1139.76 136.72C1137.96 140.162 1137.94 140.215 1138.09 141.039C1138.29 142.087 1139.32 142.949 1140.38 142.948C1140.63 142.947 1146.49 141.524 1156.62 139.006L1172.47 135.066L1172.94 134.731C1173.47 134.351 1173.78 133.903 1173.92 133.28C1174.04 132.761 1173.89 132.012 1173.56 131.513C1173.41 131.288 1173.24 131.063 1173.18 131.011Z'
-        fill='#36692C'
-      />
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M925.198 227.827C925.197 227.755 924.423 221.375 923.478 213.648C922.377 204.651 921.717 199.488 921.64 199.287C921.398 198.65 920.771 198.151 920.065 198.033C919.599 197.956 918.967 198.08 918.612 198.318C918.348 198.496 914.68 202.609 914.3 203.154C913.887 203.745 913.819 204.136 913.525 207.612C913.382 209.302 913.24 210.699 913.209 210.717C913.178 210.735 911.894 210.169 910.357 209.458C907.476 208.128 906.954 207.927 906.334 207.917C906.156 207.913 904.635 208.197 902.953 208.547C899.65 209.235 899.603 209.25 899.135 209.808C898.54 210.518 898.531 211.686 899.115 212.395C899.251 212.56 903.436 215.71 910.708 221.121L922.089 229.589L922.572 229.719C923.12 229.867 923.588 229.823 924.084 229.576C924.498 229.37 924.917 228.855 925.072 228.361C925.142 228.139 925.198 227.898 925.198 227.827Z'
-        fill='#36692C'
-      />
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M1092.43 292.809C1092.44 292.769 1092.41 289.106 1092.37 284.671C1092.33 279.506 1092.29 276.54 1092.26 276.422C1092.16 276.045 1091.84 275.722 1091.45 275.61C1091.19 275.536 1090.83 275.565 1090.61 275.678C1090.45 275.761 1088.11 277.853 1087.86 278.137C1087.58 278.445 1087.52 278.662 1087.13 280.611C1086.94 281.558 1086.77 282.34 1086.75 282.348C1086.73 282.356 1086.04 281.953 1085.22 281.451C1083.67 280.512 1083.39 280.365 1083.04 280.319C1082.94 280.305 1082.06 280.368 1081.08 280.457C1079.17 280.633 1079.14 280.639 1078.84 280.925C1078.46 281.288 1078.38 281.949 1078.66 282.388C1078.73 282.49 1080.89 284.544 1084.66 288.077L1090.56 293.606L1090.82 293.711C1091.12 293.83 1091.39 293.835 1091.69 293.728C1091.94 293.638 1092.21 293.373 1092.33 293.103C1092.38 292.982 1092.43 292.85 1092.43 292.809Z'
-        fill='#36692C'
-      />
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M132.611 135.683C132.588 135.671 130.43 134.817 127.816 133.786C124.771 132.584 123.019 131.904 122.942 131.894C122.698 131.861 122.432 131.974 122.273 132.178C122.168 132.312 122.098 132.534 122.113 132.688C122.123 132.802 122.796 134.675 122.904 134.89C123.02 135.123 123.133 135.211 124.185 135.904C124.697 136.24 125.115 136.526 125.116 136.539C125.116 136.552 124.715 136.862 124.225 137.227C123.306 137.912 123.153 138.043 123.043 138.238C123.011 138.294 122.839 138.825 122.66 139.419C122.309 140.586 122.306 140.603 122.402 140.848C122.525 141.159 122.894 141.363 123.22 141.3C123.296 141.286 125.016 140.5 127.986 139.125L132.634 136.973L132.759 136.842C132.901 136.694 132.967 136.538 132.974 136.338C132.98 136.171 132.889 135.949 132.759 135.815C132.7 135.754 132.634 135.695 132.611 135.683Z'
-        fill='#36692C'
-      />
       <defs>
         <filter
           id='filter0_d_888_891'
@@ -1803,9 +1773,9 @@ const WorldMapIcon = () => {
           width='1459.1'
           height='755.962'
           filterUnits='userSpaceOnUse'
-          colorInterpolationFilters='sRGB'
+          color-interpolation-filters='sRGB'
         >
-          <feFlood floodOpacity='0' result='BackgroundImageFix' />
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -1839,8 +1809,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint1_linear_888_891'
@@ -1850,8 +1820,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint2_linear_888_891'
@@ -1861,8 +1831,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint3_linear_888_891'
@@ -1872,8 +1842,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint4_linear_888_891'
@@ -1883,8 +1853,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint5_linear_888_891'
@@ -1894,8 +1864,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint6_linear_888_891'
@@ -1905,8 +1875,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint7_linear_888_891'
@@ -1916,8 +1886,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint8_linear_888_891'
@@ -1927,8 +1897,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint9_linear_888_891'
@@ -1938,8 +1908,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint10_linear_888_891'
@@ -1949,8 +1919,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint11_linear_888_891'
@@ -1960,8 +1930,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint12_linear_888_891'
@@ -1971,8 +1941,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint13_linear_888_891'
@@ -1982,8 +1952,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint14_linear_888_891'
@@ -1993,8 +1963,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint15_linear_888_891'
@@ -2004,8 +1974,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint16_linear_888_891'
@@ -2015,8 +1985,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint17_linear_888_891'
@@ -2026,8 +1996,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint18_linear_888_891'
@@ -2037,8 +2007,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint19_linear_888_891'
@@ -2048,8 +2018,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint20_linear_888_891'
@@ -2059,8 +2029,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint21_linear_888_891'
@@ -2070,8 +2040,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint22_linear_888_891'
@@ -2081,8 +2051,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint23_linear_888_891'
@@ -2092,8 +2062,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint24_linear_888_891'
@@ -2103,8 +2073,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint25_linear_888_891'
@@ -2114,8 +2084,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint26_linear_888_891'
@@ -2125,8 +2095,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <linearGradient
           id='paint27_linear_888_891'
@@ -2136,8 +2106,8 @@ const WorldMapIcon = () => {
           y2='686.962'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#D7D8D7' />
-          <stop offset='1' stopColor='#D7D8D7' stopOpacity='0' />
+          <stop stop-color='#D7D8D7' />
+          <stop offset='1' stop-color='#D7D8D7' stop-opacity='0' />
         </linearGradient>
         <clipPath id='clip0_888_891'>
           <rect

@@ -6,8 +6,10 @@
   margin-bottom: 89px;
 }
 .mapWrapper {
-  margin: 0 0 107px 0;
+  margin: 0 0 27px 0;
   position: relative;
+  width: 1461px;
+  height: 756px;
 }
 .mapWrappe > svg {
   width: 100%;
@@ -29,7 +31,101 @@
   width: 774px;
 }
 
+.plane1,
+.plane2,
+.plane3,
+.plane4,
+.plane5 {
+  position: absolute;
+}
+
+.plane1 {
+  transform: rotate(-20deg);
+  top: 34%;
+  left: 20.3%;
+  scale: 0.2;
+  animation: plane1 4s linear infinite normal;
+}
+
+@keyframes plane1 {
+  0% {
+    transform: rotate(-20deg);
+    top: 34%;
+    left: 20.3%;
+    scale: 0.2;
+  }
+  25% {
+    top: 26.3%;
+    left: 26%;
+    scale: 0.8;
+    transform: rotate(-18deg);
+  }
+  50% {
+    top: 22.5%;
+    left: 34%;
+    scale: 1;
+    transform: rotate(5deg);
+  }
+  75% {
+    top: 24%;
+    left: 40%;
+    scale: 0.8;
+    transform: rotate(19deg);
+  }
+  100% {
+    top: 30%;
+    left: 47.8%;
+    scale: 0.2;
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes plane1x1440 {
+  0% {
+    transform: rotate(-30deg);
+    top: 32.8%;
+    left: 21.2%;
+    scale: 0.2;
+  }
+  25% {
+    top: 25.8%;
+    left: 26%;
+    scale: 0.6;
+    transform: rotate(-23deg);
+  }
+  50% {
+    top: 21.6%;
+    left: 34%;
+    scale: 0.8;
+    transform: rotate(5deg);
+  }
+  75% {
+    top: 22.8%;
+    left: 40%;
+    scale: 0.6;
+    transform: rotate(20deg);
+  }
+  100% {
+    top: 28.8%;
+    left: 47.3%;
+    scale: 0.2;
+    transform: rotate(20deg);
+  }
+}
+@media screen and (max-width: 1700px) {
+  .mapWrapper {
+    left: -80px;
+  }
+}
+
 @media screen and (max-width: 1440px) {
+  .plane1 {
+    transform: rotate(-30deg);
+    top: 32.8%;
+    left: 21.2%;
+    scale: 0.2;
+    animation-name: plane1x1440;
+  }
   .description {
     margin-bottom: 70px;
 
@@ -37,15 +133,21 @@
     line-height: 28px;
   }
   .mapWrapper {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 85px 0;
-
-    left: -30px;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 0 50px 0;
+    width: 1101px;
+    height: 543px;
+    left: 30px;
   }
+
   .mapWrapper > svg {
+    /* left: 50px; */
+    width: 1101px;
+    height: 543px;
   }
   .wrapperBlock {
+    /* margin-top: 85px; */
     margin-left: 66px;
     grid-template-columns: 1.03fr 1.1554fr;
     column-gap: 90px;

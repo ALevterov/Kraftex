@@ -10,6 +10,11 @@ import Center from 'components/ui/Center'
 import MainButton from 'components/ui/Buttons/MainButton/MainButton'
 import AdditionalText from 'components/ui/Text/AdditionallText'
 import WorldMapIcon from 'components/icons/WorldMapIcon'
+import Plane1 from 'components/icons/Planes/plane1'
+import Plane2 from 'components/icons/Planes/plane2'
+import Plane3 from 'components/icons/Planes/plane3'
+import Plane4 from 'components/icons/Planes/plane4'
+import Plane5 from 'components/icons/Planes/plane5'
 const FinansicalReplacement = () => {
   return (
     <Container className='section bigMargin' id={'financical-replacement'}>
@@ -27,6 +32,21 @@ const FinansicalReplacement = () => {
       </div>
       <div className={styles.mapWrapper}>
         <WorldMapIcon />
+        <div className={styles.plane1}>
+          <Plane1 />
+        </div>
+        <div className={styles.plane2}>
+          <Plane2 />
+        </div>
+        <div className={styles.plane3}>
+          <Plane3 />
+        </div>
+        <div className={styles.plane4}>
+          <Plane4 />
+        </div>
+        <div className={styles.plane5}>
+          <Plane5 />
+        </div>
       </div>
       <div className={styles.wrapperBlock}>
         <div className={styles.financicalDarkContainer}>
