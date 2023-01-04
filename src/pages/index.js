@@ -10,22 +10,26 @@ import ItProducts from 'components/sections/ItProducts/ItProducts'
 import InviteSection from 'components/sections/InviteSection/InviteSection'
 import Footer from 'components/sections/Footer/Footer'
 import MapSection from 'components/sections/MapSection/MapSection'
+import Menu from 'components/ui/Menu/Menu'
 
 export default function Home() {
   return (
-    <div style={{ overflow: 'hidden' }}>
-      <Header />
-      <FirstSection />
-      <AboutUsSection />
-      <TabSection />
-      <FinansicalReplacement />
-      <MoneyExchange />
-      <Priveleges />
-      <FactsAndNumbers />
-      <ItProducts />
-      <InviteSection />
-      <MapSection />
-      <Footer />
-    </div>
+    <>
+      <div style={{ overflow: 'hidden' }}>
+        <Menu />
+        <div className='hidden-when-menu'>
+          <AboutUsSection />
+          <TabSection />
+          <FinansicalReplacement />
+          <MoneyExchange />
+          <Priveleges />
+          <FactsAndNumbers />
+          <ItProducts />
+          <InviteSection />
+          <MapSection />
+          <Footer />
+        </div>
+      </div>
+    </>
   )
 }

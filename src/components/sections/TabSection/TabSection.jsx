@@ -5,9 +5,9 @@ import WhiteBlock from 'components/ui/WhiteBlock/WhiteBlock'
 
 const TabSection = () => {
   return (
-    <Container className='section'>
+    <Container className='section' id='tab-section'>
       <TabBar />
-      <WhiteBlock>
+      <WhiteBlock id='our-services'>
         <BlockServices />
       </WhiteBlock>
     </Container>

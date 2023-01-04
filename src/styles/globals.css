@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
+/* @import url('./pulse.css'); */
 :root {
   --accent-color: #91d783;
   --mainButton: #36692c;
@@ -57,6 +58,40 @@ span.active {
   display: flex;
   justify-content: center;
 }
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 515px 35px;
+    /* background-position: 100% 100%; */
+  }
+}
+
+.colored > * {
+  color: linear-gradient(
+    90.44deg,
+    #36692c -21.63%,
+    rgba(166, 246, 150, 0.861638) 31.59%,
+    #36692c 117.56%
+  );
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90.44deg,
+    #36692c -21.63%,
+    rgba(166, 246, 150, 0.861638) 31.59%,
+    #36692c 117.56%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* -webkit-text-fill-color: transparent; */
+  /* background-size: 100%; */
+  animation: gradient 10s ease infinite alternate;
+}
+
 @media (prefers-color-scheme: dark) {
   /* html {
     color-scheme: dark;

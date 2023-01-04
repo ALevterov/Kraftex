@@ -7,7 +7,7 @@ import InviteForm from 'components/business/InviteForm/InviteForm'
 import SafeImage from '../../../../public/assets/Safe.png'
 const InviteSection = () => {
   return (
-    <Container className={styles.container}>
+    <Container className={styles.container} id='invite'>
       <Center>
         <SectionTitle
           text={'Стать клиентом Kraftex'}

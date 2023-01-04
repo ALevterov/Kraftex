@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import styles from './MapWrapper.module.css'
 import { load } from '@2gis/mapgl'
 import MarkerSvg from '../../../../public/assets/Marker.svg'
+// import MarkerSvg from '../../../../public/assets/whiteMarker.svg'
 const MapWrapper = () => {
   useEffect(() => {
     let map
@@ -20,7 +21,11 @@ const MapWrapper = () => {
     })
     return () => map && map.destroy()
   }, [])
-  return <div id='map-container' className={styles.mapWrapper}></div>
+  return (
+    <div id='map-container' className={styles.mapWrapper}>
+      {/* <div className='pulse'></div> */}
+    </div>
+  )
 }
 
 export default MapWrapper

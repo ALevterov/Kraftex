@@ -7,7 +7,7 @@
 }
 .iconContainer {
   position: absolute;
-  top: 188px;
+  top: 158px;
   left: 0;
   z-index: 10;
 }
@@ -21,12 +21,21 @@
   left: 80px;
 }
 .imageContainer {
-  top: 63px;
-  right: -44px;
-  width: 986px;
-  height: 985px;
+  top: 83px;
+  right: -204px;
+  width: 846px;
+  height: 845px;
   position: relative;
   z-index: 1;
+}
+.vectorContainer {
+  position: absolute;
+  top: -18%;
+  left: -31%;
+  z-index: 9999;
+  /* position: absolute; */
+  /* top: 83px; */
+  /* right: -204px; */
 }
 .rokfellerText {
   font-weight: 200;
@@ -45,13 +54,51 @@
   width: 2px;
   height: 49px;
   position: relative;
-  z-index: 1100;
+  z-index: 1;
   top: 360px;
   left: 480px;
+  overflow: hidden;
 }
+.stickContainer::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 21px;
+  background-color: #35682b;
+  position: absolute;
+  animation: stick 2s ease-in-out infinite normal;
+}
+
 div.firstSectionContainer {
   margin-bottom: 103px;
 }
+
+.vectorContainer > svg > path:nth-child(2n) {
+  animation: ballsGradient 4s ease infinite alternate;
+}
+.vectorContainer > svg > path:nth-child(2n + 1) {
+  animation: ballsGradient 4s ease infinite alternate;
+  animation-delay: 4s;
+}
+@keyframes ballsGradient {
+  0% {
+    fill-opacity: 0%;
+  }
+  100% {
+    fill-opacity: 10%;
+  }
+}
+
+@keyframes stick {
+  0% {
+    top: -42.857%;
+  }
+  100% {
+    /* top: 57.1428%; */
+    top: 100%;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .firstSectionTextContainer {
     left: 0;

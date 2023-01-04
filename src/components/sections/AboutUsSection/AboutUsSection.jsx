@@ -5,7 +5,7 @@ import dollarImage from '../../../../public/assets/dollar.png'
 
 const AboutUsSection = () => {
   return (
-    <Container className='section'>
+    <Container className='section' id='about-us'>
       <div className={styles.aboutUsSection}>
         <div className={styles.imageContainer}>
           <Image src={dollarImage.src} fill />

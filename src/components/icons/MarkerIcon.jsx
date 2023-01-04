@@ -44,8 +44,8 @@ const MarkerIcon = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(54.5 74.5) rotate(90) scale(54.5)'
         >
-          <stop offset='0.515625' stop-color='white' stop-opacity='0' />
-          <stop offset='1' stop-color='white' stop-opacity='0.66' />
+          <stop offset='0.515625' stopColor='white' stopOpacity='0' />
+          <stop offset='1' stopColor='white' stopOpacity='0.66' />
         </radialGradient>
         <radialGradient
           id='paint1_radial_888_263'
@@ -55,8 +55,8 @@ const MarkerIcon = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(54.5 74.5) rotate(90) scale(37.5)'
         >
-          <stop offset='0.515625' stop-color='white' stop-opacity='0' />
-          <stop offset='1' stop-color='white' stop-opacity='0.66' />
+          <stop offset='0.515625' stopColor='white' stopOpacity='0' />
+          <stop offset='1' stopColor='white' stopOpacity='0.66' />
         </radialGradient>
         <radialGradient
           id='paint2_radial_888_263'
@@ -66,8 +66,8 @@ const MarkerIcon = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(54.5 74.5) rotate(90) scale(24.5)'
         >
-          <stop offset='0.515625' stop-color='white' stop-opacity='0' />
-          <stop offset='1' stop-color='white' stop-opacity='0.66' />
+          <stop offset='0.515625' stopColor='white' stopOpacity='0' />
+          <stop offset='1' stopColor='white' stopOpacity='0.66' />
         </radialGradient>
         <linearGradient
           id='paint3_linear_888_263'
@@ -77,8 +77,8 @@ const MarkerIcon = () => {
           y2='4.5'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='white' />
-          <stop offset='1' stop-color='#BDBDBD' />
+          <stop stopColor='white' />
+          <stop offset='1' stopColor='#BDBDBD' />
         </linearGradient>
       </defs>
     </svg>

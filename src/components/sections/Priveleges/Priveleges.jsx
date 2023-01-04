@@ -8,7 +8,7 @@ import NavigationIcon from 'components/icons/NavigationIcon'
 import ShieldIcon from 'components/icons/ShieldIcon'
 const Priveleges = () => {
   return (
-    <Container className='section mediumMargin'>
+    <Container className='section mediumMargin' id='priveleges'>
       <Center>
         <SectionTitle text={'Привилегии'} className={styles.sectionTitle} />
       </Center>
