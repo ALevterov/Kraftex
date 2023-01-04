@@ -211,7 +211,7 @@
     scale: 1;
   }
   75% {
-    left: 62.8%;
+    left: 63%;
     top: 34.4%;
     transform: rotate(30deg);
     scale: 0.6;
@@ -255,6 +255,151 @@
     scale: 0.3;
   }
 }
+
+.plane4 {
+  left: 58.5%;
+  top: 23%;
+  transform: rotate(-90deg);
+  scale: 0.5;
+
+  animation: plane4 4s linear infinite normal;
+}
+@keyframes plane4 {
+  0% {
+    left: 58.5%;
+    top: 23%;
+    transform: rotate(-90deg);
+    scale: 0.5;
+  }
+  25% {
+    left: 64.3%;
+    top: 21.5%;
+    transform: rotate(-60deg);
+    scale: 0.85;
+  }
+  50% {
+    left: 68.6%;
+    top: 24.6%;
+    transform: rotate(-35deg);
+    scale: 1.2;
+  }
+  75% {
+    left: 71.8%;
+    top: 29.6%;
+    transform: rotate(-15deg);
+    scale: 0.85;
+  }
+  100% {
+    left: 74.3%;
+    top: 38%;
+    transform: rotate(0deg);
+    scale: 0.5;
+  }
+}
+@keyframes plane4x1440 {
+  0% {
+    left: 58%;
+    top: 22.5%;
+    transform: rotate(-90deg);
+    scale: 0.5;
+  }
+  25% {
+    left: 63%;
+    top: 21%;
+    transform: rotate(-60deg);
+    scale: 0.85;
+  }
+  50% {
+    left: 67.8%;
+    top: 24.2%;
+    transform: rotate(-35deg);
+    scale: 1;
+  }
+  75% {
+    left: 70.8%;
+    top: 29.3%;
+    transform: rotate(-12deg);
+    scale: 0.85;
+  }
+  100% {
+    left: 72.95%;
+    top: 37.2%;
+    transform: rotate(0deg);
+    scale: 0.5;
+  }
+}
+.plane5 {
+  left: 58.2%;
+  top: 24.3%;
+  transform: rotate(-45deg);
+  scale: 0.2;
+
+  animation: plane5 4s linear infinite normal;
+}
+@keyframes plane5 {
+  0% {
+    left: 58.2%;
+    top: 24.3%;
+    transform: rotate(-45deg);
+    scale: 0.2;
+  }
+  25% {
+    left: 67.45%;
+    top: 16%;
+    transform: rotate(-25deg);
+    scale: 0.5;
+  }
+  50% {
+    left: 74.45%;
+    top: 14.4%;
+    transform: rotate(-8deg);
+    scale: 1;
+  }
+  75% {
+    left: 81.45%;
+    top: 15.8%;
+    transform: rotate(12deg);
+    scale: 0.5;
+  }
+  100% {
+    left: 89.7%;
+    top: 24.1%;
+    transform: rotate(30deg);
+    scale: 0.2;
+  }
+}
+@keyframes plane5x1440 {
+  0% {
+    left: 57.45%;
+    top: 23.42%;
+    transform: rotate(-35deg);
+    scale: 0.2;
+  }
+  25% {
+    left: 66.2%;
+    top: 14.9%;
+    transform: rotate(-20deg);
+    scale: 0.5;
+  }
+  50% {
+    left: 73.45%;
+    top: 13.3%;
+    transform: rotate(-6deg);
+    scale: 0.8;
+  }
+  75% {
+    left: 81.45%;
+    top: 16.6%;
+    transform: rotate(14deg);
+    scale: 0.5;
+  }
+  100% {
+    left: 87.35%;
+    top: 23.2%;
+    transform: rotate(30deg);
+    scale: 0.2;
+  }
+}
 @media screen and (max-width: 1700px) {
   .mapWrapper {
     left: -80px;
@@ -284,6 +429,22 @@
     scale: 0.3;
 
     animation-name: plane3x1440;
+  }
+  .plane4 {
+    left: 72.95%;
+    top: 37.2%;
+    transform: rotate(0deg);
+    scale: 0.5;
+
+    animation-name: plane4x1440;
+  }
+  .plane5 {
+    left: 57.45%;
+    top: 23.42%;
+    transform: rotate(-35deg);
+    scale: 0.2;
+
+    animation-name: plane5x1440;
   }
   .description {
     margin-bottom: 70px;
