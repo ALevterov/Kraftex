@@ -1,0 +1,114 @@
+.twentytwenty-wrapper {
+  transform: rotate(0deg);
+}
+.twentytwenty-overlay {
+  display: none;
+}
+.twentytwenty-handle {
+  /* transform: rotate(45deg); */
+}
+.twentytwenty.twentytwenty-container {
+  width: 320px;
+  overflow: visible;
+  /* transform: rotate(22deg); */
+}
+/* .twentytwenty.twentytwenty-container > img {
+  transform: rotate(-22deg);
+} */
+.twentytwenty-left-arrow,
+.twentytwenty-right-arrow {
+  display: none;
+}
+.twentytwenty-handle::before,
+.twentytwenty-handle::after {
+  position: absolute;
+  width: 30px !important;
+  height: 100% !important;
+  margin: 0 !important;
+  top: 0 !important;
+  background: transparent !important;
+}
+.twentytwenty-handle {
+  /* transform: rotate(22deg); */
+}
+.twentytwenty-handle::before {
+  left: -26px !important;
+}
+.twentytwenty-handle::after {
+  left: 0px !important;
+}
+.twentytwenty-handle::before {
+  box-shadow: 20px 0px 20px rgba(0, 0, 0, 1) !important;
+  /* box-shadow: 20px 0px 15px -5px rgba(0, 0, 0, 1) !important; */
+}
+.twentytwenty-handle::after {
+  box-shadow: -20px 0px 20px rgba(0, 0, 0, 1) !important;
+  /* box-shadow: -20px 0px 15px -5px rgba(0, 0, 0, 1) !important; */
+}
+
+.twentytwenty-horizontal,
+.twentytwenty-handle::before,
+.twentytwenty-horizontal,
+.twentytwenty-handle::after {
+  background-color: transparent !important;
+}
+.twentytwenty-handle {
+  /* position: relative; */
+  z-index: 999;
+  margin-top: -10% !important;
+  height: 120% !important;
+  width: 4px;
+  background-color: #36692c;
+  top: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  /* transform: rotate(22deg); */
+}
+
+@keyframes divider {
+  0% {
+    left: 120px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+@keyframes leftImage {
+  0% {
+    clip: rect(0px, 120px, 320px, 0px);
+  }
+  100% {
+    clip: rect(0px, 200px, 320px, 0px);
+  }
+}
+@keyframes rightImage {
+  0% {
+    clip: rect(0px, 320px, 320px, 120px);
+  }
+  100% {
+    clip: rect(0px, 320px, 320px, 200px);
+  }
+}
+.twentytwenty-handle.animated {
+  animation-name: divider;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.twentytwenty-before.animated {
+  animation-name: leftImage;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.twentytwenty-after.animated {
+  animation-name: rightImage;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

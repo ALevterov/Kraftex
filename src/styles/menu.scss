@@ -67,7 +67,7 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
   margin: 0 auto;
   width: 100%;
 
-  max-height: 100vh;
+  // max-height: 100vh;
   // height: 100vh;
   // max-width: 320px;
   min-height: 568px;
@@ -320,14 +320,14 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
 
   &.middle {
     top: 29%;
-    left: -53%;
+    left: -60%;
     transform: rotate(-45deg) scaleY(0);
   }
   &.top {
     // left: -34%;
     // top: 0;
     left: -60%;
-    top: -10%;
+    top: 20%;
     transform: rotate(-45deg) translateY(-152%);
     // transform: rotate(-45deg) translateY(-552%);
     //top: -25%;
@@ -387,7 +387,7 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
 
 .menu-container-inner {
   position: relative;
-  top: 160px;
+  top: 97px;
   // padding: 0 20px;
   padding-left: 30px;
   width: 100%;
@@ -441,6 +441,7 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
 
   color: #e2e2e2;
 }
+.items-row > a:last-child,
 .items-row > div:last-child {
   margin-bottom: 0;
 }
@@ -528,7 +529,8 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
 
 @media screen and (max-width: 1440px) {
   .menu-container-inner {
-    top: 120px;
+    padding-left: 50px;
+    top: 47px;
   }
   .menu-bg.top {
     left: -20%;

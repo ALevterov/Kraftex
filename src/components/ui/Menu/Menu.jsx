@@ -148,7 +148,7 @@ const Menu = () => {
       .add('preClose', '-=0.8')
       .to(
         logo,
-        0.8,
+        0.6,
         {
           scale: 1,
           opacity: 1,
@@ -186,6 +186,7 @@ const Menu = () => {
         },
         'preClose'
       )
+      .to(logo, -1, { backgroundColor: '#191919' })
     // .to(
     //   logo,
     //   0.8,

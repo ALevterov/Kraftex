@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
-
+@import url('twenty/twentytwenty.css');
+@import url('twenty/twentyStyles.css');
 /* @import url('./pulse.css'); */
 :root {
   --accent-color: #91d783;
@@ -59,13 +60,15 @@ span.active {
   justify-content: center;
 }
 @keyframes gradient {
-  0% {
+  to {
+    background-position: 200% center;
+  }
+  /* 0% {
     background-position: 0 0;
   }
   100% {
     background-position: 515px 35px;
-    /* background-position: 100% 100%; */
-  }
+  } */
 }
 
 .colored > * {
@@ -78,30 +81,38 @@ span.active {
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
   text-transform: uppercase;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90.44deg,
     #36692c -21.63%,
     rgba(166, 246, 150, 0.861638) 31.59%,
     #36692c 117.56%
+  ); */
+  background: linear-gradient(
+    to right,
+    #36692c 20%,
+    rgba(166, 246, 150, 0.861638) 40%,
+    #36692c 60%
   );
+  background-size: 200% auto;
+
   background-clip: text;
   -webkit-background-clip: text;
 
   /* -webkit-text-fill-color: transparent; */
   /* background-size: 100%; */
-  animation: gradient 10s ease infinite alternate;
+  animation: gradient 4s ease infinite alternate;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 }
-
+body {
+  color: white;
+  background: #101010;
+  overflow: 'hidden';
+}
 @media (prefers-color-scheme: dark) {
   /* html {
     color-scheme: dark;
   } */
-  body {
-    color: white;
-    background: #101010;
-    overflow: 'hidden';
-    /* background: black; */
-  }
 }
 @media screen and (max-width: 1440px) {
   div.section {

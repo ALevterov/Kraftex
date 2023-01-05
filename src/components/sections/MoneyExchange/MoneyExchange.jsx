@@ -2,14 +2,47 @@ import Container from 'components/ui/Container/Container'
 import SectionTitle from 'components/ui/Text/SectionTitle'
 import styles from './MoneyExchange.module.css'
 import Center from 'components/ui/Center'
-import CoinImage from '../../../../public/assets/Coin.png'
 import Image from 'next/image'
 import DarkContainer from 'components/ui/Text/DarkContainer'
 import AttentionIcon from 'components/icons/AttentionIcon'
 import TitledList from 'components/ui/TitledList/TitledList'
 import MainButton from 'components/ui/Buttons/MainButton/MainButton'
 import AdditionalText from 'components/ui/Text/AdditionallText'
-const MoneyExchange = () => {
+import Script from 'next/script'
+import { useEffect } from 'react'
+// import CoinImage from '../../../../public/assets/Coin.png'
+import Bitcoin from '../../../../public/assets/Bitcoin.png'
+import Etherium from '../../../../public/assets/Etherium.png'
+import 'twenty/jquery.event.move.js'
+import 'twenty/jquery.twentytwenty.js'
+const MoneyExchange = ({ image1, image2 }) => {
+  useEffect(() => {
+    $(function () {
+      $('.twentytwenty').twentytwenty({
+        no_overlay: true,
+        move_with_handle_only: false,
+      })
+    })
+    const dividers = document.querySelectorAll('.twentytwenty-handle')
+    const leftImage = document.querySelector('.twentytwenty-before')
+    const rightImage = document.querySelector('.twentytwenty-after')
+
+    const removeListeners = () => {
+      dividers.forEach(d => d.classList.remove('animated'))
+      leftImage.classList.remove('animated')
+      rightImage.classList.remove('animated')
+    }
+    const twentyContainer = document.querySelector(
+      '.twentytwenty.twentytwenty-container'
+    )
+    twentyContainer.addEventListener('click', removeListeners)
+    dividers.forEach(d => {
+      d.classList.add('animated')
+      leftImage.classList.add('animated')
+      rightImage.classList.add('animated')
+      // d.addEventListener('click', removeListeners)
+    })
+  }, [])
   return (
     <Container className={'section bigMargin'} id={'money-exchange'}>
       <SectionTitle
@@ -19,7 +52,10 @@ const MoneyExchange = () => {
       />
       <Center>
         <div className={styles.imageContainer}>
-          <Image src={CoinImage.src} fill alt='Coin' />
+          <div className='twentytwenty'>
+            <Image src={image1.src} width={320} height={320} alt='' />
+            <Image src={image2.src} width={320} height={320} alt='' />
+          </div>
         </div>
       </Center>
       <div className={styles.mainText}>

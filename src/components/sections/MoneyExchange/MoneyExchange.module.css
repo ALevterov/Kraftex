@@ -1,12 +1,11 @@
 div.moneyTitle {
-  margin-bottom: 44px;
+  margin-bottom: 0;
 }
 .imageContainer {
-  width: 443px;
-  height: 460px;
-  margin-bottom: 25px;
+  width: 320px;
+  height: 320px;
   position: relative;
-  right: -30px;
+  margin: 100px 0;
 }
 .mainText {
   font-weight: 400;
@@ -38,5 +37,8 @@ div.moneyTitle {
   .itemWrapper {
     grid-template-columns: 1.70916fr 1fr;
     column-gap: 66px;
+  }
+  .imageContainer {
+    margin: 80px 0;
   }
 }

@@ -47,6 +47,12 @@ const FinansicalReplacement = () => {
         <div className={styles.plane5}>
           <Plane5 />
         </div>
+        <div className={styles.plane6}>
+          <Plane4 />
+        </div>
+        <div className={styles.plane7}>
+          <Plane4 />
+        </div>
       </div>
       <div className={styles.wrapperBlock}>
         <div className={styles.financicalDarkContainer}>

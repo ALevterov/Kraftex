@@ -117,7 +117,7 @@
   top: 17.1%;
   left: 7.5%;
   scale: 0.6;
-  animation: plane2 4s linear infinite normal;
+  animation: plane2 3s linear infinite normal;
 }
 @keyframes plane2 {
   0% {
@@ -189,7 +189,8 @@
   transform: rotate(-45deg);
   scale: 0.3;
 
-  animation: plane3 4s linear infinite normal;
+  animation: plane3 3.2s linear infinite normal;
+  animation-delay: 1s;
 }
 @keyframes plane3 {
   0% {
@@ -262,7 +263,8 @@
   transform: rotate(-90deg);
   scale: 0.5;
 
-  animation: plane4 4s linear infinite normal;
+  animation: plane4 3.6s linear infinite normal;
+  animation-delay: 2s;
 }
 @keyframes plane4 {
   0% {
@@ -335,6 +337,7 @@
   scale: 0.2;
 
   animation: plane5 4s linear infinite normal;
+  animation-delay: 2s;
 }
 @keyframes plane5 {
   0% {
@@ -400,6 +403,161 @@
     scale: 0.2;
   }
 }
+
+.plane6 {
+  position: absolute;
+  top: 26.7%;
+  left: 46.3%;
+  scale: 0.4;
+  transform: rotate(-140deg);
+
+  animation: plane6 2s linear infinite normal;
+}
+@keyframes plane6 {
+  0% {
+    top: 26.7%;
+    left: 46.3%;
+    scale: 0.4;
+    transform: rotate(-140deg);
+  }
+  25% {
+    top: 24.3%;
+    left: 47.15%;
+    scale: 0.8;
+    transform: rotate(-120deg);
+  }
+  50% {
+    top: 22.6%;
+    left: 48.3%;
+    scale: 1.2;
+    transform: rotate(-90deg);
+  }
+  75% {
+    top: 21.4%;
+    left: 50.3%;
+    scale: 0.8;
+    transform: rotate(-60deg);
+  }
+  100% {
+    top: 22%;
+    left: 52.2%;
+    scale: 0.4;
+    transform: rotate(-40deg);
+  }
+}
+
+@keyframes plane6x1440 {
+  0% {
+    top: 25.9%;
+    left: 46.3%;
+    scale: 0.3;
+    transform: rotate(-140deg);
+  }
+  25% {
+    top: 23.7%;
+    left: 47.1%;
+    scale: 0.6;
+    transform: rotate(-120deg);
+  }
+  50% {
+    top: 21.9%;
+    left: 48.3%;
+    scale: 0.9;
+    transform: rotate(-90deg);
+  }
+  75% {
+    top: 20.75%;
+    left: 50.3%;
+    scale: 0.6;
+    transform: rotate(-60deg);
+  }
+  100% {
+    top: 21.6%;
+    left: 51.9%;
+    scale: 0.3;
+    transform: rotate(-30deg);
+  }
+}
+
+.plane7 {
+  position: absolute;
+  top: 36%;
+  left: 57.15%;
+  scale: 0.4;
+  transform: rotate(-20deg);
+
+  animation: plane7 2.6s linear infinite normal;
+}
+@keyframes plane7 {
+  0% {
+    top: 35.3%;
+    left: 46.6%;
+    scale: 0.4;
+    transform: rotate(-115deg);
+  }
+  25% {
+    top: 32.4%;
+    left: 49%;
+    scale: 0.8;
+    transform: rotate(-90deg);
+  }
+  50% {
+    top: 31.5%;
+    left: 51.8%;
+    scale: 1.3;
+    transform: rotate(-60deg);
+  }
+  75% {
+    top: 32.3%;
+    left: 54.5%;
+    scale: 0.8;
+    transform: rotate(-40deg);
+  }
+  100% {
+    top: 36%;
+    left: 57.15%;
+    scale: 0.4;
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes plane7x1440 {
+  0% {
+    position: absolute;
+    top: 34.7%;
+    left: 46.6%;
+    scale: 0.3;
+    transform: rotate(-120deg);
+  }
+  25% {
+    position: absolute;
+    top: 31.1%;
+    left: 49.6%;
+    scale: 0.7;
+    transform: rotate(-80deg);
+  }
+  50% {
+    position: absolute;
+    top: 30.9%;
+    left: 52.1%;
+    scale: 1.2;
+    transform: rotate(-60deg);
+  }
+  75% {
+    position: absolute;
+    top: 32.2%;
+    left: 54.5%;
+    scale: 0.7;
+    transform: rotate(-40deg);
+  }
+  100% {
+    position: absolute;
+    top: 35.5%;
+    left: 56.7%;
+    scale: 0.3;
+    transform: rotate(-20deg);
+  }
+}
 @media screen and (max-width: 1700px) {
   .mapWrapper {
     left: -80px;
@@ -445,6 +603,23 @@
     scale: 0.2;
 
     animation-name: plane5x1440;
+  }
+  .plane6 {
+    top: 25.9%;
+    left: 46.3%;
+    scale: 0.3;
+    transform: rotate(-140deg);
+
+    animation-name: plane6x1440;
+  }
+  .plane7 {
+    position: absolute;
+    top: 34.7%;
+    left: 46.6%;
+    scale: 0.3;
+    transform: rotate(-120deg);
+
+    animation-name: plane7x1440;
   }
   .description {
     margin-bottom: 70px;
