@@ -537,5 +537,38 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
     top: -50%;
   }
 }
+@media screen and (max-width: 1240px) {
+  .menu-title {
+    margin-bottom: 54px;
+  }
+  .menu-container-inner {
+    top: 0px;
+  }
+  .items-row > a {
+    margin-bottom: 52px;
+  }
+  .menu-items-container {
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .menu-container-inner {
+    top: 100px;
+  }
+}
 @media screen and (max-width: 1000px) {
+  .menu-container-inner {
+    top: 140px;
+  }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-container > * {
+    margin-bottom: 34px;
+  }
+  .contact-item.links {
+    align-self: center;
+  }
 }

@@ -124,4 +124,21 @@ body {
   .section.mediumMargin {
     margin-bottom: 154px;
   }
+  .section.littleMargin {
+    margin-bottom: 136px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  div.section {
+    margin-bottom: 140px;
+  }
+  .section.bigMargin {
+    margin-bottom: 140px;
+  }
+  .section.mediumMargin {
+    margin-bottom: 121px;
+  }
+  .section.littleMargin {
+    margin-bottom: 106px;
+  }
 }

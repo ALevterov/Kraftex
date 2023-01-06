@@ -188,7 +188,54 @@ div.firstSectionContainer {
     top: 64px;
   }
 }
-
+@media screen and (max-width: 1220px) {
+  div.firstSectionContainer {
+    margin-bottom: 100px;
+    top: 0;
+  }
+  .imageContainer {
+    width: 640px;
+    height: 640px;
+    top: -26px;
+  }
+  .vectorContainer {
+    transform: scale(0.6);
+    top: -44%;
+    left: -54%;
+  }
+  .iconContainer {
+    transform: scale(0.7);
+    left: -110px;
+    top: 40px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .imageContainer {
+    right: -70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .imageContainer {
+    right: -80px;
+    width: 560px;
+    height: 560px;
+  }
+  .iconContainer {
+    transform: scale(0.6);
+    left: -150px;
+    top: 30px;
+  }
+  .firstSectionTextContainer {
+    padding-left: 78px;
+  }
+  .rokfellerText {
+    left: 184px;
+  }
+  .stickContainer {
+    left: 420px;
+    top: 170px;
+  }
+}
 @media screen and (max-width: 390px) {
   .iconContainer {
     transform: scaleX(0.365) scaleY(0.575);

@@ -10,3 +10,13 @@
 
   margin-top: 100px;
 }
+@media screen and (max-width: 1440px) {
+  .whiteBlock {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .whiteBlock {
+    margin-top: 60px;
+  }
+}

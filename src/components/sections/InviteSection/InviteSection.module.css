@@ -30,6 +30,22 @@
     grid-template-columns: 1.059fr 1fr;
     column-gap: 115px;
   }
+  .container {
+    margin-bottom: 160px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .imageWrapper {
+    width: 430px;
+    height: 526px;
+  }
+  .itemsContainer {
+    grid-template-columns: 1.059fr 1.3fr;
+    column-gap: 55px;
+  }
+  .container {
+    margin-bottom: 130px;
+  }
 }
 @media screen and (max-width: 390px) {
   .imageWrapper {

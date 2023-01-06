@@ -30,7 +30,7 @@ const FirstSection = () => {
         <div className={styles.imageContainer}>
           <Image
             src={bigPicture1920.src}
-            alt='Big Roll'
+            alt=''
             fill
             sizes='(max-width: 1440px) 782px (max-width: 1920px) 985px'
           />

@@ -1,2 +1,11 @@
 .tabBarItem {
+  transform: scaleY(0) translateY(-100%) translateZ(-200%);
+  opacity: 0;
+  transition: all 0.5s ease;
+  /* margin-bottom: -20%;  */
+}
+.tabBarItem.active {
+  transform: scaleY(1) translateY(0) translateZ(0);
+  opacity: 1;
+  /* margin-bottom: 0;  */
 }

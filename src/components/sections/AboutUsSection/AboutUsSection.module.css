@@ -35,3 +35,22 @@
     line-height: 27.74px;
   }
 }
+@media screen and (max-width: 1240px) {
+  .textContainer > p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .aboutUsSection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .textContainer > p {
+    text-align: center;
+  }
+  .imageContainer {
+    margin-bottom: 70px;
+  }
+}
