@@ -33,3 +33,10 @@
     line-height: 24px;
   }
 }
+@media screen and (max-width: 768px) {
+  .list > li {
+    font-size: 13px;
+    line-height: 28px;
+    /* margin-bottom: 12px; */
+  }
+}

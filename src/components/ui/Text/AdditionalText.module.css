@@ -7,3 +7,9 @@
 
   text-align: center;
 }
+@media screen and (max-width: 540px) {
+  .additionalText {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

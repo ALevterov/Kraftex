@@ -572,3 +572,8 @@ $zoom-slow: all 2.4s cubic-bezier(0.55, 0, 0.1, 1);
     align-self: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .menu-header-wrapper {
+    margin-top: 72px;
+  }
+}

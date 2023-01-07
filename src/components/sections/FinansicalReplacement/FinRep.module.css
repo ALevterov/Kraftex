@@ -659,3 +659,40 @@
     transform: scale(0.9);
   }
 }
+@media screen and (max-width: 768px) {
+  .wrapperBlock {
+    margin-bottom: 50px;
+  }
+  .wrapperBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .financicalDarkContainer {
+    margin-bottom: 50px;
+  }
+  .titledListContainer {
+    padding-left: 20px;
+  }
+  .mobileWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mapWrapper {
+    transform: scale(0.7);
+    left: -210px;
+    top: -80px;
+    margin-bottom: -120px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .mapWrapper {
+    transform: scale(0.345);
+    left: -380px;
+    top: -180px;
+    margin-bottom: -320px;
+  }
+  .description {
+    margin-bottom: 50px;
+  }
+}

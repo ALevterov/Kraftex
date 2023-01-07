@@ -72,7 +72,24 @@
     padding: 15.06px 15.85px 14.27px 15.85px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftColumn,
+  .rightColumn {
+    min-width: 200px;
+  }
+  .cardRight {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 100;
+
+    margin: 0;
+  }
+}
+@media screen and (max-width: 540px) {
   .technologyIcon {
     padding: 8.64px 8.64px 8.16px 8.64px;
   }
@@ -90,5 +107,14 @@
   }
   .teamWorkIcon {
     padding: 8.64px 9.09px 8.18px 9.09px;
+  }
+  .leftColumn,
+  .rightColumn {
+    min-width: 122px;
+  }
+  .cardRight {
+    font-size: 12.071px;
+    line-height: 11px;
+    font-weight: 100;
   }
 }

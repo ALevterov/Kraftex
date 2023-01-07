@@ -29,3 +29,23 @@
     padding-left: 62px;
   }
 }
+@media screen and (max-width: 768px) {
+  .mainText {
+    font-weight: 100;
+    font-size: 27px;
+    line-height: 140%;
+
+    position: static;
+
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .mainText {
+    margin-bottom: 30px;
+
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 140%;
+  }
+}

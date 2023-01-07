@@ -24,3 +24,8 @@
     margin-right: 0;
   }
 }
+@media screen and (max-width: 768px) {
+  .sectionTitle {
+    margin-bottom: 50px;
+  }
+}

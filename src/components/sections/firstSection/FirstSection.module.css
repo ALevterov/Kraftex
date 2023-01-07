@@ -62,7 +62,7 @@
 .stickContainer::before {
   display: block;
   content: '';
-  width: 100%;
+  width: 2px;
   height: 21px;
   background-color: #35682b;
   position: absolute;
@@ -236,8 +236,71 @@ div.firstSectionContainer {
     top: 170px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
+  div.firstSectionContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 46px;
+
+    margin-bottom: 100px;
+  }
+  .rokfellerText {
+    position: static;
+  }
+  .iconContainer {
+    margin-left: 0;
+  }
+  .imageContainer {
+    right: 20px;
+    top: 0;
+    width: 700px;
+    height: 700px;
+  }
+  .iconContainer {
+    top: 0;
+  }
+  .firstSectionTextContainer {
+    padding-left: 0;
+    z-index: 9999;
+    top: -80px;
+  }
+
+  .imageContainer {
+    margin-top: 40px;
+  }
+
+  .firstSectionTextContainer > div:first-child {
+    /* top: -80px; */
+  }
+
+  .rokfellerText {
+    position: static;
+
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 120%;
+
+    text-align: center;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+  }
+  .stickContainer {
+    top: 50px;
+    left: 50%;
+    /* position: static; */
+  }
+}
+
+@media screen and (max-width: 391px) {
   .iconContainer {
     transform: scaleX(0.365) scaleY(0.575);
+  }
+  .rokfellerText {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    /* identical to box height */
+    letter-spacing: 0.3em;
   }
 }

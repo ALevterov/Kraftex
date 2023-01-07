@@ -142,3 +142,11 @@ body {
     margin-bottom: 106px;
   }
 }
+@media screen and (max-width: 768px) {
+  div.section {
+    margin-bottom: 120px;
+  }
+  .section.bigMargin {
+    margin-bottom: 120px;
+  }
+}

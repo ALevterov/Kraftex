@@ -17,3 +17,27 @@
     margin-bottom: 55px;
   }
 }
+@media screen and (max-width: 768px) {
+  .sectionTitle {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .titleContainer {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 540px) {
+  .sectionTitle {
+    font-size: 28px;
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .sectionTitle {
+    font-size: 25px;
+    line-height: 28px;
+  }
+}

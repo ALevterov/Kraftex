@@ -47,3 +47,38 @@ div.noMargin {
     padding: 31px 60px;
   }
 }
+@media screen and (max-width: 768px) {
+  .text1 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+  }
+  .whiteBlockWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  div.whiteBlock {
+    width: 350px;
+    margin-bottom: 30px;
+    padding: 21px;
+  }
+  .title {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  div.whiteBlock.bottomWB {
+    margin-bottom: 0;
+    padding: 21px;
+  }
+  div.whiteBlock > * {
+    margin-top: 30px;
+  }
+  /* div.whiteBlock > *:last-child {
+    margin-bottom: 0;
+  } */
+}

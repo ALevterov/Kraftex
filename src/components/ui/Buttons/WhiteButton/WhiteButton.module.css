@@ -24,5 +24,16 @@
     line-height: 20px;
 
     padding: 21.4px 54.7px;
+
+    border-radius: 12.6832px;
+
+    height: auto;
   }
+}
+@media screen and (max-width: 768px) {
+  .button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
 }

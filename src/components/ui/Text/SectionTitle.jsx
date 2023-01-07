@@ -4,10 +4,6 @@ const SectionTitle = ({ text, className, colored }) => {
   return (
     <div className={classes.join(' ')}>
       <h2 className={styles.sectionTitle}>{text}</h2>
-      {/* <div
-        className='colored'
-        style={{ width: '100px', height: '100px' }}
-      ></div> */}
     </div>
   )
 }

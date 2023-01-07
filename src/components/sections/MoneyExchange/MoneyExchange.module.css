@@ -42,3 +42,33 @@ div.moneyTitle {
     margin: 80px 0;
   }
 }
+@media screen and (max-width: 768px) {
+  .itemWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .darkContainerWrapper {
+    margin-bottom: 50px;
+  }
+  .imageContainer {
+    transform: scale(0.793);
+    margin: 50px 0;
+  }
+  .titledListWrapper {
+    position: relative;
+    left: 30px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .mainText {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .additionalText {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

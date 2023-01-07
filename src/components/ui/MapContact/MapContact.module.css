@@ -63,3 +63,33 @@
     padding-right: 16px;
   }
 }
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 25px 30px 31px 24px;
+    width: 186px;
+  }
+  .blockTitle {
+    font-size: 15px;
+    line-height: 20px;
+
+    margin-bottom: 22px;
+  }
+  .blockText,
+  .splitText {
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 0;
+  }
+  .splitText {
+    flex-direction: column;
+  }
+  .splitText > div {
+    margin-bottom: 12px;
+  }
+  .splitText > div:last-child {
+    margin-bottom: 0;
+  }
+  .socialMedia {
+    padding: 0;
+  }
+}

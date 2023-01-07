@@ -13,7 +13,7 @@ const AboutUsSection = () => {
         <div className={styles.textContainer}>
           <p>
             <span className='active'>
-              Kraftex — Ваш надежный партнёр в сфере управления капиталом
+              Kraftex — Ваш надежный партнёр в сфере управления капиталом.
             </span>
           </p>
           <br />

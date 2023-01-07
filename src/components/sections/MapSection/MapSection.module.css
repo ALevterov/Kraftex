@@ -25,3 +25,27 @@
     top: 178px;
   }
 }
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    left: 24px;
+  }
+  .hatContainer {
+    transform: scaleX(0.43) scaleY(0.4) rotate(-2deg);
+    left: -240px;
+    top: -330px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hatContainer {
+    transform: scaleX(0.3) scaleY(0.4) rotate(-2deg);
+    left: -220px;
+    top: -330px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hatContainer {
+    transform: scaleX(0.25) scaleY(0.4) rotate(-2deg);
+    left: -220px;
+    top: -330px;
+  }
+}

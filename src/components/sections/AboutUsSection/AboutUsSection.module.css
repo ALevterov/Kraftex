@@ -54,3 +54,25 @@
     margin-bottom: 70px;
   }
 }
+@media screen and (max-width: 768px) {
+  .imageContainer {
+    width: 446px;
+    height: 353px;
+  }
+  .textContainer > p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 175%;
+
+    margin-bottom: 40px;
+  }
+  .textContainer > p:first-child {
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 391px) {
+  .textContainer > p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

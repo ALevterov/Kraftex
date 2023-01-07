@@ -47,8 +47,29 @@
     margin-bottom: 130px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 90px;
+  }
   .imageWrapper {
     display: none;
+  }
+  .itemsContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .formWrapper {
+    width: 70%;
+  }
+  .title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .formWrapper {
+    width: 100%;
+  }
+  .container {
+    margin-bottom: 70px;
   }
 }

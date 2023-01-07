@@ -28,3 +28,24 @@
     margin-right: 158px;
   }
 }
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 33px auto 41px auto;
+  }
+  .footerWrapper {
+    margin: 0;
+  }
+  .politics {
+    margin-right: 0;
+  }
+  .left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 45px;
+  }
+  .footerWrapper {
+    flex-direction: column;
+  }
+}

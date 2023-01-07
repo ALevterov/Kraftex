@@ -19,39 +19,41 @@ const FinansicalReplacement = () => {
   return (
     <Container className='section bigMargin' id={'financical-replacement'}>
       <SectionTitle text={'Финансовые перестановки'} colored={true} />
-      <div className={styles.description}>
-        Kraftex предлагает услуги перестановки активов{' '}
-        <span className='active'>(Crypto, RUB, USD, EUR, AED, CNY)</span> в обе
-        стороны между странами:{' '}
-        <span className='active'>
-          Россия, ОАЭ, Турция, Китай, страны Евросоюза и США.
-        </span>{' '}
-        Также имеются опции инкассации активов и заморозки полученного резерва
-        на несколько дней в случае, если клиент желает забрать денежные средства
-        в другой стране лично.
-      </div>
-      <div className={styles.mapWrapper}>
-        <WorldMapIcon />
-        <div className={styles.plane1}>
-          <Plane1 />
+      <div className={styles.mobileWrapper}>
+        <div className={styles.description}>
+          Kraftex предлагает услуги перестановки активов{' '}
+          <span className='active'>(Crypto, RUB, USD, EUR, AED, CNY)</span> в
+          обе стороны между странами:{' '}
+          <span className='active'>
+            Россия, ОАЭ, Турция, Китай, страны Евросоюза и США.
+          </span>{' '}
+          Также имеются опции инкассации активов и заморозки полученного резерва
+          на несколько дней в случае, если клиент желает забрать денежные
+          средства в другой стране лично.
         </div>
-        <div className={styles.plane2}>
-          <Plane2 />
-        </div>
-        <div className={styles.plane3}>
-          <Plane3 />
-        </div>
-        <div className={styles.plane4}>
-          <Plane4 />
-        </div>
-        <div className={styles.plane5}>
-          <Plane5 />
-        </div>
-        <div className={styles.plane6}>
-          <Plane4 />
-        </div>
-        <div className={styles.plane7}>
-          <Plane4 />
+        <div className={styles.mapWrapper}>
+          <WorldMapIcon />
+          <div className={styles.plane1}>
+            <Plane1 />
+          </div>
+          <div className={styles.plane2}>
+            <Plane2 />
+          </div>
+          <div className={styles.plane3}>
+            <Plane3 />
+          </div>
+          <div className={styles.plane4}>
+            <Plane4 />
+          </div>
+          <div className={styles.plane5}>
+            <Plane5 />
+          </div>
+          <div className={styles.plane6}>
+            <Plane4 />
+          </div>
+          <div className={styles.plane7}>
+            <Plane4 />
+          </div>
         </div>
       </div>
       <div className={styles.wrapperBlock}>
