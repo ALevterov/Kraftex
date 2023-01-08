@@ -64,8 +64,13 @@
     font-size: 16px;
     line-height: 28px;
   }
+  .p {
+    font-size: 16px;
+    line-height: 28px;
+  }
   .textContainer > p {
     text-align: left;
+    text-transform: none;
     /* font-size: 22px; */
     /* line-height: 175%; */
 
@@ -75,8 +80,6 @@
     text-transform: uppercase;
   }
   .textContainer > p:last-child {
-    text-transform: uppercase;
-
     margin-bottom: 0;
   }
 }
