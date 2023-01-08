@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@2gis/mapgl": "^1.33.1",
+    "bootstrap": "^5.2.3",
     "formik": "^2.2.9",
     "next": "13.1.1",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
     "yup": "^0.32.11"
   },

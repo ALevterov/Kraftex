@@ -48,3 +48,31 @@
     line-height: 20px;
   }
 }
+@media screen and (max-width: 768px) {
+  .card {
+    width: 268px;
+    height: 405px;
+    padding: 33px 27px 33px 26px;
+  }
+  .iconWrapper {
+    margin-bottom: 35px;
+  }
+  .middleContent {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .middleContent > span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .bottomContent {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .iconWrapper > svg {
+    transform: scaleX(0.79) scaleY(0.7936);
+  }
+}

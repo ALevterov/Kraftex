@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 @import url('twenty/twentytwenty.css');
 @import url('twenty/twentyStyles.css');
+@import url('bootstrap.min.css');
+@import url('../owl-carousel/owl.carousel.min.css');
+/* @import url('bootstrap/dist/css/bootstrap.min.css'); */
 /* @import url('./pulse.css'); */
 :root {
   --accent-color: #91d783;
@@ -18,6 +21,9 @@ body {
   margin: 0;
   font-family: 'Roboto', 'sans-serif';
   scroll-behavior: smooth;
+  color: white !important;
+  background: #101010 !important;
+  overflow: 'hidden' !important;
 }
 
 a {
@@ -104,11 +110,6 @@ span.active {
   animation-timing-function: linear;
   animation-direction: alternate;
 }
-body {
-  color: white;
-  background: #101010;
-  overflow: 'hidden';
-}
 @media (prefers-color-scheme: dark) {
   /* html {
     color-scheme: dark;
@@ -144,9 +145,48 @@ body {
 }
 @media screen and (max-width: 768px) {
   div.section {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
   }
   .section.bigMargin {
     margin-bottom: 120px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .slider {
+    display: none;
+  }
+  .sliderWrapper {
+    display: none;
+  }
+  div.section {
+    margin-bottom: 40px;
+  }
+}
+.slider.carousel.slide > .carousel-control-prev {
+  height: auto;
+  position: absolute;
+  top: 0px;
+  bottom: auto;
+  left: 11px;
+  width: auto;
+}
+.slider.carousel.slide > .carousel-control-next {
+  height: auto;
+  position: absolute;
+  top: 2px;
+  bottom: auto;
+  right: 11px;
+  width: auto;
+}
+.carousel-control-prev.hidden,
+.carousel-control-next.hidden {
+  display: none;
+}
+.slider-item-container {
+  max-height: 340px;
+  /* transition: max-height 2s ease; */
+}
+.slider-item-container.max {
+  max-height: none;
 }

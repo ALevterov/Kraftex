@@ -1,4 +1,4 @@
-const ManIcon = () => {
+const ManIcon = ({ style }) => {
   return (
     <svg
       width='48'

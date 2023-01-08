@@ -1,0 +1,25 @@
+.sliderWrapper {
+  position: relative;
+  margin-bottom: 146px;
+}
+.prevIcon {
+  transform: rotate(180deg);
+}
+.more {
+  position: absolute;
+  bottom: -48px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: rgba(166, 246, 150, 0.861638);
+}
+.moreInner > span {
+  margin-left: 10px;
+}
+.moreInner {
+  cursor: pointer;
+}

@@ -28,4 +28,7 @@
   .sectionTitle {
     margin-bottom: 50px;
   }
+  .cardContainer {
+    display: none;
+  }
 }

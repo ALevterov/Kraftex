@@ -23,6 +23,6 @@
 @media screen and (max-width: 768px) {
   .whiteBlock {
     flex-direction: column;
-    padding: 38px 26px 38px 32px;
+    padding: 38px 32px 38px 26px;
   }
 }

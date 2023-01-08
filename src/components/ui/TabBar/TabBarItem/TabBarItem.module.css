@@ -9,3 +9,22 @@
   opacity: 1;
   /* margin-bottom: 0;  */
 }
+@media screen and (max-width: 768px) {
+  .navItem {
+    font-weight: 400;
+    font-size: 19.8175px;
+    line-height: 28px;
+    padding: 0 0 39px 0;
+
+    margin-bottom: 40px;
+  }
+  .tabBarItemContainer > p {
+    margin-bottom: 40px;
+  }
+  .tabBarListContainerItem {
+    padding-left: 14px;
+  }
+  .tabBarItemContainer {
+    margin-bottom: 40px;
+  }
+}

@@ -65,7 +65,7 @@
     line-height: 175%;
   }
 }
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 540px) {
   div.textWrapper {
     font-size: 16px;
     line-height: 28px;

@@ -6,6 +6,7 @@ import PrivelegeCard from 'components/ui/Cards/PrivelegeCard/PricelegeCard'
 import ManIcon from 'components/icons/ManIcon'
 import NavigationIcon from 'components/icons/NavigationIcon'
 import ShieldIcon from 'components/icons/ShieldIcon'
+import Carousel from 'components/ui/Carousel/Carousel'
 const Priveleges = () => {
   return (
     <Container className='section mediumMargin' id='priveleges'>
@@ -17,7 +18,8 @@ const Priveleges = () => {
           description={
             'Поможет выбрать подходящую услугу, соответствующую Вашим потребностям, и подробно ответит на любые вопросы'
           }
-          icon={<ManIcon />}
+          icon={<ManIcon style={{ width: '38px', height: '50px' }} />}
+          style={{ transform: 'scaleX(0.79) scaleY(0.7936)' }}
         >
           <span>Персональный менеджер</span>
           <br />
@@ -46,6 +48,7 @@ const Priveleges = () => {
           100% успешных сделок
         </PrivelegeCard>
       </div>
+      <Carousel />
     </Container>
   )
 }

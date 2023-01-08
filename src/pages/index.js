@@ -4,7 +4,7 @@ import FirstSection from 'components/sections/firstSection/FirstSection'
 import AboutUsSection from 'components/sections/AboutUsSection/AboutUsSection'
 import FinansicalReplacement from 'components/sections/FinansicalReplacement/FinansicalReplacement'
 // import MoneyExchange from 'components/sections/MoneyExchange/MoneyExchange'
-import Priveleges from 'components/sections/Priveleges/Priveleges'
+// import Priveleges from 'components/sections/Priveleges/Priveleges'
 import FactsAndNumbers from 'components/sections/FactsAndNumbers/FactsAndNumbers'
 import ItProducts from 'components/sections/ItProducts/ItProducts'
 import InviteSection from 'components/sections/InviteSection/InviteSection'
@@ -22,7 +22,12 @@ const DynamicMoneyExchange = dynamic(
     ssr: false,
   }
 )
-
+const DynamicPriveleges = dynamic(
+  () => import('components/sections/Priveleges/Priveleges'),
+  {
+    ssr: false,
+  }
+)
 export default function Home() {
   return (
     <>
@@ -33,7 +38,7 @@ export default function Home() {
           <TabSection />
           <FinansicalReplacement />
           <DynamicMoneyExchange image1={Bitcoin} image2={Etherium} />
-          <Priveleges />
+          <DynamicPriveleges />
           <FactsAndNumbers />
           <ItProducts />
           <InviteSection />

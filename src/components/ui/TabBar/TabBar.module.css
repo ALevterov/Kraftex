@@ -54,9 +54,15 @@
     margin-right: 20px;
   }
 }
-/* .tabBarListContainerItem:first-child {
-  margin-right: 107px;
+@media screen and (max-width: 768px) {
+  .tabBar {
+    display: none;
+  }
+  .tabBarListContainerItem > li,
+  .tabBarItemContainer > p,
+  .itemPar {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+  }
 }
-.tabBarListContainerItem:nth-child(2) {
-  margin-right: 139px;
-} */

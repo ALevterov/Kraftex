@@ -82,3 +82,8 @@ div.noMargin {
     margin-bottom: 0;
   } */
 }
+@media screen and (max-width: 410px) {
+  div.whiteBlock {
+    width: 100%;
+  }
+}

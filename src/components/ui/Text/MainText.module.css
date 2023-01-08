@@ -40,12 +40,15 @@
     margin-bottom: 50px;
   }
 }
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 540px) {
   .mainText {
     margin-bottom: 30px;
 
     font-weight: 200;
     font-size: 17px;
     line-height: 140%;
+
+    top: 20px;
+    left: 10px;
   }
 }

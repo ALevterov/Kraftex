@@ -56,23 +56,29 @@
 }
 @media screen and (max-width: 768px) {
   .imageContainer {
-    width: 446px;
-    height: 353px;
+    width: 294px;
+    height: 233px;
+    min-width: 294px;
+  }
+  .textContainer > p {
+    font-size: 16px;
+    line-height: 28px;
   }
   .textContainer > p {
     text-align: left;
-    font-size: 22px;
-    line-height: 175%;
+    /* font-size: 22px; */
+    /* line-height: 175%; */
 
     margin-bottom: 40px;
   }
   .textContainer > p:first-child {
     text-transform: uppercase;
   }
-}
-@media screen and (max-width: 391px) {
-  .textContainer > p {
-    font-size: 16px;
-    line-height: 28px;
+  .textContainer > p:last-child {
+    text-transform: uppercase;
+
+    margin-bottom: 0;
   }
+}
+@media screen and (max-width: 540px) {
 }

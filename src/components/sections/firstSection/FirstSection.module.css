@@ -242,7 +242,7 @@ div.firstSectionContainer {
     align-items: center;
     margin-top: 46px;
 
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
   .rokfellerText {
     position: static;
@@ -261,7 +261,7 @@ div.firstSectionContainer {
   }
   .firstSectionTextContainer {
     padding-left: 0;
-    z-index: 9999;
+    z-index: 9;
     top: -80px;
   }
 
@@ -291,9 +291,23 @@ div.firstSectionContainer {
   }
 }
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 540px) {
+  div.firstSectionContainer {
+    margin-bottom: 40px;
+  }
+  .firstSectionTextContainer {
+    top: -60px;
+  }
   .iconContainer {
-    transform: scaleX(0.365) scaleY(0.575);
+    /* transform: scaleX(0.365) scaleY(0.575); */
+    transform: scale(1);
+    width: 334px;
+    height: 106px;
+    left: 25px;
+  }
+  .iconContainer > svg {
+    width: 100%;
+    height: 100%;
   }
   .rokfellerText {
     font-weight: 300;
@@ -302,5 +316,12 @@ div.firstSectionContainer {
 
     /* identical to box height */
     letter-spacing: 0.3em;
+  }
+  .imageContainer {
+    transform: scale(1);
+    width: 440px;
+    height: 440px;
+
+    margin-top: -55px;
   }
 }
