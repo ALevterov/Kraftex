@@ -13,11 +13,11 @@ const WebSettingsIcon = () => {
         y='0.561035'
         width='42.0131'
         height='42.0131'
-        fill='url(#pattern0)'
+        fill='url(#pattern22)'
       />
       <defs>
         <pattern
-          id='pattern0'
+          id='pattern22'
           patternContentUnits='objectBoundingBox'
           width='1'
           height='1'

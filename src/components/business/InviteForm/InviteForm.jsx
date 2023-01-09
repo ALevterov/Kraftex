@@ -26,12 +26,12 @@ const InviteForm = () => {
       <Formik
         initialValues={formikInitialValues}
         validationSchema={Yup.object().shape({
-          name: Yup.string().required('Поле обязательно для заполнения'),
-          city: Yup.string().required('Город обязателен для заполнения'),
+          name: Yup.string().required('Поле обязательно для заполнения*'),
+          city: Yup.string().required('Поле обязательно для заполнения*'),
           email: Yup.string()
-            .email('Введите корректный email')
-            .required('Email обязателен для заполнения'),
-          contact: Yup.string().required('Укажите контакт для связи'),
+            .required('Поле обязательно для заполнения*')
+            .email('Введите корректный email*'),
+          contact: Yup.string().required('Поле обязательно для заполнения*'),
         })}
         onSubmit={handleSubmit}
       >
@@ -49,20 +49,68 @@ const InviteForm = () => {
             noValidate
             onSubmit={handleSubmit}
           >
-            <span className={styles.additionalText}>
-              * - обязательные поля для заполнения
+            <span
+              className={[
+                styles.additionalText,
+                Object.keys(touched).some(t => Object.keys(errors).includes(t))
+                  ? styles.formError
+                  : '',
+              ].join(' ')}
+            >
+              {Object.keys(touched).some(t => Object.keys(errors).includes(t))
+                ? 'Поле обязательно для заполнения*'
+                : '* - обязательные поля для заполнения'}
             </span>
-            <InviteInput id='name' label={'Представьтесь, пожалуйста*'} />
+            <InviteInput
+              errors={errors.name}
+              id='name'
+              label={'Представьтесь, пожалуйста*'}
+              touched={touched.name}
+              onChange={handleChange}
+              value={values.name}
+            />
             <div className={styles.doubleInputWrapper}>
-              <InviteInput id='city' label={'Город*'} />
-              <InviteInput id='email' label={'E-mail*'} />
+              <InviteInput
+                errors={errors.city}
+                id='city'
+                label={'Город*'}
+                onChange={handleChange}
+                value={values.city}
+                touched={touched.city}
+              />
+              <InviteInput
+                errors={errors.email}
+                id='email'
+                label={'E-mail*'}
+                onChange={handleChange}
+                value={values.email}
+                touched={touched.email}
+              />
             </div>
-            <InviteInput id='phone' label={'Номер телефона'} />
+            <InviteInput
+              errors={errors.phone}
+              id='phone'
+              label={'Номер телефона'}
+              onChange={handleChange}
+              value={values.phone}
+              touched={touched.phone}
+            />
             <InviteInput
               id='contact'
               label={'Иной контакт для связи (например, Telegram)*'}
+              onChange={handleChange}
+              value={values.contact}
+              touched={touched.contact}
+              errors={errors.contact}
             />
-            <InviteInput id='message' label={'Текст сообщения'} />
+            <InviteInput
+              errors={errors.message}
+              id='message'
+              label={'Текст сообщения'}
+              onChange={handleChange}
+              value={values.message}
+              touched={touched.message}
+            />
             <ButtonWithIcon
               type={'button'}
               text={'Отправить'}

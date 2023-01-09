@@ -6,7 +6,7 @@
 /* @import url('bootstrap/dist/css/bootstrap.min.css'); */
 /* @import url('./pulse.css'); */
 :root {
-  --accent-color: #91d783;
+  --accent-color: #3e7a32;
   --mainButton: #36692c;
   --dark-green: #35682b;
   --gray: #414141;
@@ -150,17 +150,23 @@ span.active {
   .section.bigMargin {
     margin-bottom: 120px;
   }
+  .slider-item-container {
+    max-height: none;
+    /* transition: max-height 2s ease; */
+  }
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 540px) {
+  .slider-item-container {
+    max-height: 340px;
+    /* transition: max-height 2s ease; */
+  }
+}
+@media screen and (min-width: 769px) {
   .slider {
     display: none;
   }
-  .sliderWrapper {
-    display: none;
-  }
-  div.section {
-    margin-bottom: 40px;
+  .owl-carousel {
+    display: none !important;
   }
 }
 .slider.carousel.slide > .carousel-control-prev {
@@ -170,6 +176,7 @@ span.active {
   bottom: auto;
   left: 11px;
   width: auto;
+  opacity: 1 !important;
 }
 .slider.carousel.slide > .carousel-control-next {
   height: auto;
@@ -178,15 +185,30 @@ span.active {
   bottom: auto;
   right: 11px;
   width: auto;
+  opacity: 1 !important;
 }
 .carousel-control-prev.hidden,
 .carousel-control-next.hidden {
   display: none;
 }
-.slider-item-container {
-  max-height: 340px;
-  /* transition: max-height 2s ease; */
-}
 .slider-item-container.max {
   max-height: none;
+}
+.carousel-control-next > span > svg > path:first-child,
+.carousel-control-prev > span > svg > path:first-child {
+  animation-name: sliderArrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease;
+
+  position: relative;
+}
+@keyframes sliderArrow {
+  0% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(2px);
+  }
 }

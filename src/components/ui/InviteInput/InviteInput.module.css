@@ -23,7 +23,17 @@
   height: 95px;
   margin-bottom: 40px;
 }
-
+.inputWrapper.error > .input {
+  border-bottom: 0.5px solid #f83636;
+}
+.inputWrapper.error > .label {
+  color: #f83636;
+}
+.labelError {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #f83636;
+}
 @media screen and (max-width: 1440px) {
   .inputWrapper {
     height: 75px;

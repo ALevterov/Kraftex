@@ -22,9 +22,15 @@
     margin-bottom: 40px;
   }
   .tabBarListContainerItem {
-    padding-left: 14px;
+    padding-left: 20px;
   }
   .tabBarItemContainer {
     margin-bottom: 40px;
+  }
+  .tabBarListContainerItem > li {
+    margin-bottom: 20px;
+  }
+  .tabBarListContainerItem:last-child > li:last-child {
+    margin-bottom: 0px;
   }
 }

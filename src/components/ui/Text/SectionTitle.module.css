@@ -34,6 +34,10 @@
     font-size: 28px;
     line-height: 31px;
   }
+  .titleContainer {
+    text-align: center;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 391px) {
   .sectionTitle {

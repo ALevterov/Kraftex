@@ -41,7 +41,9 @@
 
   color: #5b5b5b;
 }
-
+.additionalText.formError {
+  color: #f83636;
+}
 @media screen and (max-width: 1440px) {
   .additionalText {
     font-size: 13px;

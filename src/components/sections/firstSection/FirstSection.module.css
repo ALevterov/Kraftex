@@ -256,6 +256,11 @@ div.firstSectionContainer {
     width: 700px;
     height: 700px;
   }
+  .vectorContainer {
+    transform: scale(0.55);
+    top: -36%;
+    left: -42%;
+  }
   .iconContainer {
     top: 0;
   }
@@ -323,5 +328,10 @@ div.firstSectionContainer {
     height: 440px;
 
     margin-top: -55px;
+  }
+  .vectorContainer {
+    transform: scale(0.43);
+    top: -86%;
+    left: -97%;
   }
 }

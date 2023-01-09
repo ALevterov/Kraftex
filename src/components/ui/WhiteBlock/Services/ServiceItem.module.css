@@ -71,3 +71,18 @@
     line-height: 28px;
   }
 }
+@media screen and (max-width: 420px) {
+  div.textWrapper {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .serviceItem:nth-child(1) > .serviceItemInner > .iconWrapper {
+    margin-right: 20px;
+  }
+  .serviceItem:nth-child(2) > .serviceItemInner > .iconWrapper {
+    margin-right: 25px;
+  }
+  .serviceItem:nth-child(3) > .serviceItemInner > .iconWrapper {
+    margin-right: 24x;
+  }
+}

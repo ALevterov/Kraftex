@@ -36,10 +36,14 @@ const Menu = () => {
       console.log(hiddenBlock)
       hiddenBlock.classList.toggle('hidden')
     }
-    const clickAnchor = () => {
-      togglePage()
-      closeTrigger.click()
+    const clickAnchor = e => {
+      hiddenBlock.classList.remove('hidden')
+      setTimeout(() => {
+        menuCloseTrigger.click()
+        hiddenBlock.classList.remove('hidden')
+      }, 400)
     }
+
     let itemsRows = document.querySelectorAll('.items-row')
     itemsRows.forEach(row => {
       const links = row.querySelectorAll('a')

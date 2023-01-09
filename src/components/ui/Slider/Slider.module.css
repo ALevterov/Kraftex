@@ -15,11 +15,26 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 28px;
-  color: rgba(166, 246, 150, 0.861638);
+  color: #3e7a32;
 }
 .moreInner > span {
   margin-left: 10px;
 }
 .moreInner {
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .more {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .more {
+    display: flex;
+  }
+}
+@media screen and (min-width: 769px) {
+  .sliderWrapper {
+    display: none;
+  }
 }

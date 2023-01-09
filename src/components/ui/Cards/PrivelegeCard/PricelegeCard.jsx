@@ -1,6 +1,5 @@
 import styles from './PrivelegeCard.module.css'
 const PrivelegeCard = ({ icon, children, description, style }) => {
-  console.log(style)
   return (
     <div className={styles.card}>
       <div className={styles.topContent}>
